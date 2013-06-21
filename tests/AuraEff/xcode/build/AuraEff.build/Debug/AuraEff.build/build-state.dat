@@ -1,0 +1,281 @@
+TAuraEff
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/AuraEff.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch.pth AuraEff_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/ParticleController.o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/Particle.o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEffApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../src/AuraEffApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/MacOS/AuraEff normal i386
+cTouch /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BDA0FB00000000000000AA
+t1371382011
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000512059C900000000000024F0
+t1361074633
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000514366D10000000000024DD8
+t1363371729
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000514366D100000000000060B4
+t1363371729
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000512059C900000000000001E5
+t1361074633
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000514366D1000000000000E9A8
+t1363371729
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051436B500000000000081CB0
+t1363372880
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051B0A96F000000000002DAD0
+t1370532207
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000519F44BC00000000004A2E10
+t1369392316
+s4861456
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../resources/CinderApp.icns
+c0000000051C48F5A0000000000070375
+t1371836250
+s459637
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../src/AuraEffApp.cpp
+c0000000051C4917500000000000008EA
+t1371836789
+s2282
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEff.LinkFileList
+c0000000051C492A10000000000000189
+t1371837089
+s393
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEffApp.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/Particle.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/ParticleController.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/Info.plist
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/MacOS/AuraEff
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/AuraEff_Prefix.pch
+c0000000051C48F5A000000000000012D
+t1371836250
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Particle.cpp
+c0000000051C4928700000000000004C6
+t1371837063
+s1222
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/ParticleController.cpp
+c0000000051C492A10000000000000597
+t1371837089
+s1431
+
+N/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051C48F5A0000000000000462
+t1371836250
+s1122
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../src/AuraEffApp.cpp
+r0
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Particle.cpp
+r0
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/ParticleController.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd89f1021ca74b741^cbf21921ca74b741^---0#1#0#--18"Check dependencies36"14D3C467-81AE-459A-A553-7CCE3F02DDAF-
+
+CCompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEffApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../src/AuraEffApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393529892.325841
+e393529893.605657
+r1
+xCompileC
+x./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEffApp.o
+x/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../src/AuraEffApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../src/AuraEffApp.cpp56805324ca74b741^e2e9a525ca74b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../src/AuraEffApp.cpp0000000000000000^2959"CompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEffApp.o ../src/AuraEffApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEffApp.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEffApp.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../src/AuraEffApp.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEffApp.o36"FDBB728C-55A9-4F2B-B2DC-40996E4E6822-
+
+CCompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/Particle.o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393529892.325818
+e393529893.582269
+r1
+xCompileC
+x./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/Particle.o
+x/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Particle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Particle.cppfe805324ca74b741^36e6a525ca74b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Particle.cpp0000000000000000^2933"CompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/Particle.o Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/Particle.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/Particle.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Particle.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/Particle.o36"D20A1781-AD45-4779-8F96-C2005BE56E6B-
+
+CCompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/ParticleController.o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393529892.325803
+e393529893.591825
+r1
+xCompileC
+x./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/ParticleController.o
+x/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/ParticleController.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/ParticleController.cppcb805324ca74b741^e6e8a525ca74b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/ParticleController.cpp0000000000000000^2993"CompileC ./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/ParticleController.o ParticleController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/ParticleController.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/ParticleController.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/ParticleController.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/ParticleController.o36"9593BC03-B275-4828-A9F3-4D99DF79A83C-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/AuraEff.app/Contents/Resources/CinderApp.icns
+s393529889.125457
+e393529889.129328
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/AuraEff.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy ./build/Debug/AuraEff.app/Contents/Resources/CinderApp.icnsfa2b2021ca74b741^e57c2121ca74b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/Resources/CinderApp.icns000000000080d041^453"CpResource ../resources/CinderApp.icns ./build/Debug/AuraEff.app/Contents/Resources/CinderApp.icns    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/../resources/CinderApp.icns /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/Resources36"6538C80B-9B02-4F07-BD9D-B6817EB22D22-
+
+CLd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/MacOS/AuraEff normal i386
+s393529893.612738
+e393529894.460868
+r1
+xLd
+x/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/MacOS/AuraEff
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/MacOS/AuraEff92049d25ca74b741^94fb7526ca74b741^---0#0#0#--1045"Ld ./build/Debug/AuraEff.app/Contents/MacOS/AuraEff normal i386    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug -F/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug -filelist /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/Objects-normal/i386/AuraEff.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Documents/cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/MacOS/AuraEff36"2A82A255-49DE-4E88-9DFB-E2E4A6D48AD1-
+
+CProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/Info.plist Info.plist
+s393529889.105369
+e393529889.112350
+r1
+xProcessInfoPlistFile
+x/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist18071b21ca74b741^e3a42021ca74b741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/Info.plist0000000000000000^429"ProcessInfoPlistFile ./build/Debug/AuraEff.app/Contents/Info.plist Info.plist    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app/Contents/Info.plist36"F4BF0F63-0607-463A-BA48-6AB01D40D84F-
+
+CProcessPCH++ /Users/PpD/Library/Developer/Xcode/DerivedData/AuraEff-dbpcjdljhixiupblbpqajhlvzwvv/Index/PrecompiledHeaders/AuraEff_Prefix-ezlywyekcuxormeykxvwxahvbrnb_ast/AuraEff_Prefix.pch.pth AuraEff_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch.pth AuraEff_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393529889.137759
+e393529892.318711
+r1
+xProcessPCH++
+x/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch.pth
+xAuraEff_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile AuraEff_Prefix.pch705b2321ca74b741^39985124ca74b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/AuraEff_Prefix.pch0000000000000000^2976"ProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch.pth AuraEff_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/AuraEff-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/AuraEff.build/Debug/AuraEff.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/build/Debug --serialize-diagnostics /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/AuraEff_Prefix.pch -o /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraEff_Prefix-cbscczocqvjzcxbjeplidtniikwr/AuraEff_Prefix.pch.d36"036019F2-0006-47E7-B1EB-BA4ED8047682-
+
+CTouch /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app
+s393529894.469297
+e393529894.477313
+r1
+xTouch
+x/Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app40337826ca74b741^5d327a26ca74b741^---0#0#0#--195"Touch ./build/Debug/AuraEff.app    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode    /usr/bin/touch -c /Users/PpD/ICP_TellThatToMyCamera/tests/AuraEff/xcode/./build/Debug/AuraEff.app36"D913E194-7608-420C-B335-21AA71ED322C-
+
