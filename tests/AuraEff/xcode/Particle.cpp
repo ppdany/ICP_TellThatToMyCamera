@@ -38,6 +38,9 @@ void Particle::update( const Channel32f &channel, const Vec2i &mouseLoc )
 	mDirToCursor.normalize();
 	mDirToCursor		*= sinOffset * 100.0f;
 	
+    Rectf rect( mLoc.x, mLoc.y, mLoc.x + mRadius, mLoc.y + mRadius );
+    gl::drawSolidRect( rect );
+    
 	Vec2f newLoc		= mLoc + mDirToCursor;
 	newLoc.x			= constrain( newLoc.x, 0.0f, channel.getWidth() - 1.0f );
 	newLoc.y			= constrain( newLoc.y, 0.0f, channel.getHeight() - 1.0f );

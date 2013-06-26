@@ -55,7 +55,7 @@ void AuraEffApp::mouseDrag( MouseEvent event )
 
 void AuraEffApp::mouseDown( MouseEvent event ) {
     if( event.isRight() && event.isShiftDown() ) {
-        console() << "Special thing happened!" << std::endl;
+        console() << "Secret thing happened!" << std::endl;
     }
 }
 
