@@ -19,27 +19,29 @@ public:
     bool blacktoblue = false;
     bool bluetoblack = false;
     bool blacktored = false;
+    cinder::Color m_backColor;
     
     SquareListener2 *mSquare;
     SquareListener2 *mSquare2;
     SquareListener2 *mSquare3;
     
     Vec2f pos1=Vec2f(50,50);
-    Vec2f pos2=Vec2f(50,150);
-    Vec2f pos3=Vec2f(50,250);
+    Vec2f pos2=Vec2f(50,250);
+    Vec2f pos3=Vec2f(50,450);
     
     
 };
 
 void colorChangeApp::setup()
 {
+    m_backColor=Color(0,0,0);
  	mSquare = new SquareListener2( getWindow() );
     mSquare2 = new SquareListener2( getWindow() );
     mSquare3 = new SquareListener2( getWindow() );
     
-    mSquare->setup(pos1, 1);
-    mSquare2->setup(pos2, 2);
-    mSquare3->setup(pos3, 3);
+    mSquare->setup(pos1, 1, m_backColor);
+    mSquare2->setup(pos2, 2, m_backColor);
+    mSquare3->setup(pos3, 3, m_backColor);
     
     gl::clear( Color( 0, 0, 0 ) );
 }
@@ -55,7 +57,7 @@ void colorChangeApp::update()
 void colorChangeApp::draw()
 {
 	// clear out the window with black
-    //	gl::clear( Color( 0, 0, 0 ) );
+    	gl::clear( m_backColor );
     
     /*
     float gray = sin(getElapsedSeconds())*.5f+.5f;

@@ -4130,7 +4130,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa96a22ee607bb741^a01637ee607bb741^---0#1#0#--18"Check dependencies36"741CBC93-C1E0-493C-B6CD-3EC565F3F4B6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies022da92a967db741^e4a2ba2a967db741^---0#1#0#--18"Check dependencies36"3EFE4F36-ACDC-4364-B0F0-0D289A2CB0A7-
 
 CCompileC ./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s393960995.971504

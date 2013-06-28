@@ -6,6 +6,7 @@
 #include "cinder/gl/Texture.h"
 #include "cinder/Capture.h"
 #include "cinder/Text.h"
+//#include "cinder/
 
 using namespace ci;
 using namespace ci::app;
@@ -20,6 +21,7 @@ public:
 	void mouseDown( MouseEvent event );
 	void update();
 	void draw();
+    void resize(Res);
     
     SquareListener2 *mSquare;
     SquareListener2 *mSquare2;
@@ -79,22 +81,73 @@ void CamColorApp::setup()
 	}
 }
 
+void CamColorApp::keyDown(KeyEvent event){
+    // KEYBOARD commands for camera
+    if( event.getChar() == 'f' )
+		setFullScreen( ! isFullScreen() );
+	else if( event.getChar() == ' ' ) {
+		mCaptures.back()->isCapturing() ? mCaptures.back()->stop() : mCaptures.back()->start();
+	}
+	else if( event.getChar() == 'r' ) {
+		// retain a random surface to exercise the surface caching code
+		int device = rand() % ( mCaptures.size() );
+		mRetainedSurfaces.push_back( mCaptures[device]->getSurface() );
+		console() << mRetainedSurfaces.size() << " surfaces retained." << std::endl;
+	}
+	else if( event.getChar() == 'u' ) {
+		// unretain retained surface to exercise the Capture's surface caching code
+		if( ! mRetainedSurfaces.empty() )
+			mRetainedSurfaces.pop_back();
+		console() << mRetainedSurfaces.size() << " surfaces retained." << std::endl;
+	}
+}
+
 void CamColorApp::mouseDown( MouseEvent event )
 {
 }
 
 void CamColorApp::update()
 {
+    for( vector<CaptureRef>::iterator cIt = mCaptures.begin(); cIt != mCaptures.end(); ++cIt ) {
+		if( (*cIt)->checkNewFrame() ) {
+			Surface8u surf = (*cIt)->getSurface();
+			mTextures[cIt - mCaptures.begin()] = gl::Texture::create( surf );
+		}
+	}
 }
 
 void CamColorApp::draw()
 {
-	// clear out the window with black
+	//BACKGROUND
+    // clear out the window with black
     //	gl::clear( Color( 0, 0, 0 ) );
-    
     mSquare->draw(0xF73C02);
     mSquare2->draw(0x71C462);
     mSquare3->draw(0x0589F5);
+    
+    //CAMERA
+    gl::enableAlphaBlending();
+	//gl::clear( Color::black() );
+	if( mCaptures.empty() )
+		return;
+    
+	float width = getWindowWidth() / mCaptures.size();
+	float height = width / ( WIDTH / (float)HEIGHT );
+	float x = 0, y = ( getWindowHeight() - height ) / 2.0f;
+	for( vector<CaptureRef>::iterator cIt = mCaptures.begin(); cIt != mCaptures.end(); ++cIt ) {
+		// draw the latest frame
+		gl::color( Color::white() );
+		if( mTextures[cIt-mCaptures.begin()] )
+			gl::draw( mTextures[cIt-mCaptures.begin()], Rectf( x, y, x + width, y + height ) );
+        
+		// draw the name
+		gl::color( Color::black() );
+		gl::draw( mNameTextures[cIt-mCaptures.begin()], Vec2f( x + 10 + 1, y + 10 + 1 ) );
+		gl::color( Color( 0.5, 0.75, 1 ) );
+		gl::draw( mNameTextures[cIt-mCaptures.begin()], Vec2f( x + 10, y + 10 ) );
+        
+		x += width;
+	}
 }
 
 CINDER_APP_NATIVE( CamColorApp, RendererGl )

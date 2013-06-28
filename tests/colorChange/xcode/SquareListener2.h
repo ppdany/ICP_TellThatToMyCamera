@@ -7,17 +7,19 @@ class SquareListener2 {
 public:
 	SquareListener2( ci::app::WindowRef window );
     
-    void    setup(cinder::Vec2f pos, int backColour);
+    void    setup(cinder::Vec2f pos, int backColour,cinder::Color &_color);
 	void	mouseDown( ci::app::MouseEvent &event );
 	void	mouseDrag( ci::app::MouseEvent &event );
     void    colorEffect();
 	
 	void	draw(uint32_t colorHexValue);
     int     theColor;
+    
 	
 private:
 	ci::Rectf		mRect;
 	bool			mSelected;
+    cinder::Color  m_appBackColor;
     //int            theColor;
 	
 	ci::app::WindowRef				mWindow;

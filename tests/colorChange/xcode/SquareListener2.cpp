@@ -16,11 +16,12 @@ SquareListener2::SquareListener2( app::WindowRef window )
 	mCbMouseDrag = mWindow->getSignalMouseDrag().connect( std::bind( &SquareListener2::mouseDrag, this, std::_1 ) );
 }
 
-void SquareListener2::setup( Vec2f pos, int backColour){
+void SquareListener2::setup( Vec2f pos, int backColour, cinder::Color &_color){
     mRect = Rectf( Vec2f( -40, -40 ), Vec2f( 40, 40 ) );
 	mRect.offsetCenterTo(pos);
 	mSelected = false;
     theColor = backColour;
+    m_appBackColor=_color;
 }
 void SquareListener2::mouseDown( MouseEvent &event )
 {
@@ -42,13 +43,17 @@ void SquareListener2::mouseDrag( MouseEvent &event )
 
 void SquareListener2::colorEffect(){ // 1 is red, 2 is green, 3 is blue.
     if(theColor==1){
-        gl::clear( Color( 1, 0, 0 ) );
+        m_appBackColor=cinder::Color( 1, 0, 0 );
+//        gl::clear( Color( 1, 0, 0 ) );
     }else if (theColor == 2){
-        gl::clear( Color( 0, 1, 0 ) );
+        m_appBackColor=cinder::Color( 0, 1, 0 );
+//        gl::clear( Color( 0, 1, 0 ) );
     }else if (theColor ==3){
-        gl::clear( Color( 0, 0, 1 ) );
+        m_appBackColor=cinder::Color( 0, 0, 1 );
+//        gl::clear( Color( 0, 0, 1 ) );
     }else{
-        gl::clear( Color( 0, 0, 0 ) );
+        m_appBackColor=cinder::Color( 0, 0, 0 );
+//        gl::clear( Color( 0, 0, 0 ) );
     }
 }
 
