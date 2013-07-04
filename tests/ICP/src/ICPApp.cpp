@@ -16,53 +16,46 @@ class ICPApp : public AppNative {
 public:
     void setup();
     void read_csv(string filename, vector<cv::Mat>& images, vector<int>& labels, char separator);
-    //void read_csv(string filename, vector<IplImage>& images, vector<int>& labels, char separator);
-    //    void read_csv(string filename, vector<Rectf>& images, vector<int>& labels, char separator);
 	void updateFaces( Surface cameraImage );
 	void update();
-	
 	void draw();
     
 	Capture			mCapture;
 	gl::Texture		mCameraTexture;
 	
 	cv::CascadeClassifier	mFaceCascade, mEyeCascade;
-    cv::Ptr<cv::FaceRecognizer> mFisherFaceRec = cv::createFisherFaceRecognizer();
+    cv::Ptr<cv::FaceRecognizer> mFisherFaceRec = cv::createFisherFaceRecognizer(); // FACE RECOGNIZER ALGORITHM
     
-    //  cv::SOMETHING           mPath, mDBLabels;
-    string                  mPath;
-    vector<cv::Mat>         mDBimgFaces;
-    //vector<IplImage>        mIPLimgFaces;
-    vector<int>             mDBLabels;
-    vector<int>             mDBLabelsTEST;
-    //    vector<Rectf>           mDBimgFaces;
-    vector<Surface>         mCinderDBimgFaces;
+    string                  mPath;              // Path for CSV file
+    vector<cv::Mat>         mDBimgFaces;        // image vector to train the Face Recognizer
+    vector<int>             mDBLabels;          // int vector for the labels of the images for the Face Recognizer
 	vector<Rectf>			mFaces, mEyes;
     
-    gl::Texture mTexture;
+    gl::Texture mTexture;                       // might be useful later
+    
+    vector<Surface>         mCinderDBimgFaces;  // for testing purposes
+    vector<int>             mDBLabelsTEST;      // for testing purposes
 };
 
 void ICPApp::read_csv( string filename, vector<cv::Mat>& images, vector<int>& labels, char separator = ';'){
     ifstream inFile(filename.c_str());
-    
     //    std::ifstream file(filename.c_str(), ifstream::in);
     //    if (!file) {
     //        string error_message = "No valid input file was given, please check the given filename.";
     //        CV_Error(CV_StsBadArg, error_message);
     //    }
     string line, path, classlabel;
-    while (getline(inFile, line)) {
-        stringstream liness(line);
-        getline(liness, path, separator);
-        getline(liness, classlabel);
-        if(!path.empty() && !classlabel.empty()) {
-            cout<<path << "\n";
-            ci::Surface8u surface( loadImage(path) );
-            images.push_back(toOcv(surface));            
-            //images.push_back(cvLoadImage((path));
-//            images.push_back(cvLoadImage(path, 0);
-            //images.push_back(cv::imread(path, 0));
-            labels.push_back(atoi(classlabel.c_str()));
+    while (getline(inFile, line)) {                 // While the file has lines
+        stringstream liness(line);                  // Separate the line
+        getline(liness, path, separator);           // Put the first part of the line in path
+        getline(liness, classlabel);                // Put the second part of the line in classlabel
+        if(!path.empty() && !classlabel.empty()) {  // If there are still paths and labels
+            //cout<<path << "\n";
+            //images.push_back(cv::imread(path, 0));    // imread DOESN'T WORK, it gives compiler errors!!!
+            // SINCE the previous line doesn't work...
+            ci::Surface8u surface( loadImage(path) );   // assign the image to a surface
+            images.push_back(toOcv(surface));           // convert surface to Mat (OpenCV) var and put it in the img vector
+            labels.push_back(atoi(classlabel.c_str())); // assign the label
         }
     }
 }
@@ -73,10 +66,13 @@ void ICPApp::setup()
 	mEyeCascade.load( getAssetPath( "haarcascade_eye.xml" ).string() );
     mPath= getAssetPath("ppdtest.csv").string();
     
-	mCapture = Capture( 640, 480 );
+	mCapture = Capture( 640, 480 );                 // Camera settings
 	mCapture.start();
     
-    /*
+    read_csv(mPath, mDBimgFaces, mDBLabels);        // read DB of faces for FaceRec algorithm
+    mFisherFaceRec->train(mDBimgFaces, mDBLabels);  // train the Fisher Face Recognizer algorithm
+    
+    /* TO TEST TRAIN THE FISHERFACES ALGORITHM
     ci::Surface8u surface( loadImage("/Users/PpD/Desktop/emotionsrec2/data/emotions/0neutral/amy_adams_neutral.jpg") );
     ci::Surface8u surface2( loadImage("/Users/PpD/Desktop/emotionsrec2/data/emotions/0neutral/angelina_jolie_neutral.jpg") );
     cv::Mat input( toOcv( surface ) );
@@ -88,33 +84,15 @@ void ICPApp::setup()
     cv::Mat output;
 //    cv::medianBlur( input, output, 11 );
     */
-    
     //mTexture = gl::Texture(mCinderDBimgFaces);
-    
     //mTexture = gl::Texture( fromOcv( input ) );
-
     //    cv::Mat output;
-//    mTexture = gl::Texture( fromOcv( loadImage("/Users/PpD/Desktop/emotionsrec2/data/emotions/0neutral/amy_adams_neutral.jpg") ) );
-    
-    
-    read_csv(mPath, mDBimgFaces, mDBLabels);
-    mFisherFaceRec->train(mDBimgFaces, mDBLabels);
+//    mTexture = gl::Texture( fromOcv( loadImage("/Users/PpD/Desktop/emotionsrec2/data/emotions/0neutral/amy_adams_neutral.jpg") ) );    
+
 //    mDBLabelsTEST.push_back(0);
 //    mDBLabelsTEST.push_back(1);
 //    mFisherFaceRec->train(mDBimgFaces, mDBLabelsTEST);
-    //mFisherFaceRec->train(mDBimgFaces, mDBLabels);
-    
-    //cv::Ptr<cv::FaceRecognizer> model = cv::createFisherFaceRecognizer();
-    //Ptr<FaceRecognizer> model = createFisherFaceRecognizer();
-    //model->train(images, labels);
-    
-    //    Create a FaceRecognizer:
-    //    Ptr<FaceRecognizer> model = createEigenFaceRecognizer();
-    //    And here's how to get its name:
-    //    std::string name = model->name();
-    
-    
-    
+    //mFisherFaceRec->train(mDBimgFaces, mDBLabels);   
 }
 
 void ICPApp::updateFaces( Surface cameraImage )
