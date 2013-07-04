@@ -82,17 +82,18 @@ void ICPApp::setup()
     mDBimgFaces.push_back(input2);
     //mCinderDBimgFaces.push_back(fromOcv(input2));
     cv::Mat output;
-//    cv::medianBlur( input, output, 11 );
+    //    cv::medianBlur( input, output, 11 );
     */
+    
     //mTexture = gl::Texture(mCinderDBimgFaces);
     //mTexture = gl::Texture( fromOcv( input ) );
     //    cv::Mat output;
-//    mTexture = gl::Texture( fromOcv( loadImage("/Users/PpD/Desktop/emotionsrec2/data/emotions/0neutral/amy_adams_neutral.jpg") ) );    
+    //    mTexture = gl::Texture( fromOcv( loadImage("/Users/PpD/Desktop/emotionsrec2/data/emotions/0neutral/amy_adams_neutral.jpg") ) );    
 
-//    mDBLabelsTEST.push_back(0);
-//    mDBLabelsTEST.push_back(1);
-//    mFisherFaceRec->train(mDBimgFaces, mDBLabelsTEST);
-    //mFisherFaceRec->train(mDBimgFaces, mDBLabels);   
+    //  mDBLabelsTEST.push_back(0);
+    //  mDBLabelsTEST.push_back(1);
+    //  mFisherFaceRec->train(mDBimgFaces, mDBLabelsTEST);
+    //  mFisherFaceRec->train(mDBimgFaces, mDBLabels);
 }
 
 void ICPApp::updateFaces( Surface cameraImage )
