@@ -1,0 +1,229 @@
+TICP
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/ICP.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch.pth ICP_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICPApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../src/ICPApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/MacOS/ICP normal i386
+cTouch /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BDA0FB00000000000000AA
+t1371382011
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000512059C900000000000024F0
+t1361074633
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000514366D10000000000024DD8
+t1363371729
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000514366D100000000000060B4
+t1363371729
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000512059C900000000000001E5
+t1361074633
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000514366D1000000000000E9A8
+t1363371729
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051436B500000000000081CB0
+t1363372880
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051B0A96F000000000002DAD0
+t1370532207
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000519F44BC00000000004A2E10
+t1369392316
+s4861456
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../resources/CinderApp.icns
+c0000000051D469020000000000070375
+t1372875010
+s459637
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../src/ICPApp.cpp
+c0000000051D4699A00000000000014EC
+t1372875162
+s5356
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/Info.plist
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/MacOS/ICP
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICP.LinkFileList
+c0000000051D4699A0000000000000071
+t1372875162
+s113
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICPApp.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/ICP_Prefix.pch
+c0000000051D46902000000000000012D
+t1372875010
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051D469020000000000000462
+t1372875010
+s1122
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../src/ICPApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2c0e371aa184b741^da033d1aa184b741^---0#1#0#--18"Check dependencies36"178BC2E0-88C2-45BE-9D32-3BFE2C56E8C1-
+
+CCompileC ./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICPApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../src/ICPApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394567965.733120
+e394567967.596802
+r1
+xCompileC
+x./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICPApp.o
+x/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../src/ICPApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../src/ICPApp.cppa41bbd1da184b741^acc8981fa184b741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../src/ICPApp.cpp0000000000000000^2851"CompileC ./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICPApp.o ../src/ICPApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/ICP-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/ICP-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/ICP-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/ICP-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICPApp.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICPApp.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../src/ICPApp.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICPApp.o36"42087E43-4FCF-4A4D-8022-A597B3FA7D1E-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/ICP.app/Contents/Resources/CinderApp.icns
+s394567962.256267
+e394567962.264352
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/ICP.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy ./build/Debug/ICP.app/Contents/Resources/CinderApp.icnse6ae411aa184b741^b4ac431aa184b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/Resources/CinderApp.icns000000000080d041^433"CpResource ../resources/CinderApp.icns ./build/Debug/ICP.app/Contents/Resources/CinderApp.icns    cd /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/../resources/CinderApp.icns /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/Resources36"7B544931-F240-4047-9090-06CBCAF3784C-
+
+CLd /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/MacOS/ICP normal i386
+s394567967.603339
+e394567968.570860
+r1
+xLd
+x/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/MacOS/ICP
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/MacOS/ICP488c9a1fa184b741^03249220a184b741^---0#0#0#--1750"Ld ./build/Debug/ICP.app/Contents/MacOS/ICP normal i386    cd /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/build/Debug -F/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/build/Debug -filelist /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/Objects-normal/i386/ICP.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Documents/cinder_0.8.5_mac/lib/libcinder_d.a ../blocks/OpenCV/lib/macosx/libopencv_calib3d.a ../blocks/OpenCV/lib/macosx/libopencv_contrib.a ../blocks/OpenCV/lib/macosx/libopencv_core.a ../blocks/OpenCV/lib/macosx/libopencv_features2d.a ../blocks/OpenCV/lib/macosx/libopencv_flann.a ../blocks/OpenCV/lib/macosx/libopencv_gpu.a ../blocks/OpenCV/lib/macosx/libopencv_imgproc.a ../blocks/OpenCV/lib/macosx/libopencv_legacy.a ../blocks/OpenCV/lib/macosx/libopencv_ml.a ../blocks/OpenCV/lib/macosx/libopencv_nonfree.a ../blocks/OpenCV/lib/macosx/libopencv_objdetect.a ../blocks/OpenCV/lib/macosx/libopencv_photo.a ../blocks/OpenCV/lib/macosx/libopencv_stitching.a ../blocks/OpenCV/lib/macosx/libopencv_ts.a ../blocks/OpenCV/lib/macosx/libopencv_video.a ../blocks/OpenCV/lib/macosx/libopencv_videostab.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/MacOS/ICP36"88F4F92B-009C-4EF2-96A0-C12CF306CB1D-
+
+CProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/Info.plist Info.plist
+s394567962.244785
+e394567962.247670
+r1
+xProcessInfoPlistFile
+x/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plista9bf3e1aa184b741^008e411aa184b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/Info.plist0000000000000000^405"ProcessInfoPlistFile ./build/Debug/ICP.app/Contents/Info.plist Info.plist    cd /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app/Contents/Info.plist36"9528A059-6722-416D-AAFD-A647266C9C60-
+
+CProcessPCH++ /Users/PpD/Library/Developer/Xcode/DerivedData/ICP-bykbigwuhjxjxtgrqaibdecmcsny/Index/PrecompiledHeaders/ICP_Prefix-hddrgoxelpkvubgdexqtcpshatxd_ast/ICP_Prefix.pch.pth ICP_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch.pth ICP_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394567962.277216
+e394567965.723772
+r1
+xProcessPCH++
+x/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch.pth
+xICP_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Precompile ICP_Prefix.pcha854491aa184b741^a14ab91da184b741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/ICP_Prefix.pch0000000000000000^2904"ProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch.pth ICP_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/ICP-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/ICP-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/ICP-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/ICP-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/ICP.build/Debug/ICP.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/build/Debug --serialize-diagnostics /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/ICP_Prefix.pch -o /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICP_Prefix-dewtjkjpcgsdxnhbmytpzkslfqzl/ICP_Prefix.pch.d36"32794166-2BC1-417D-86B4-D3E3CB077952-
+
+CTouch /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app
+s394567968.578898
+e394567968.584716
+r1
+xTouch
+x/Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Touch /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app14419420a184b741^36b09520a184b741^---0#0#0#--179"Touch ./build/Debug/ICP.app    cd /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode    /usr/bin/touch -c /Users/PpD/ICP_TellThatToMyCamera/tests/ICP/xcode/./build/Debug/ICP.app36"8C0CB444-C035-414D-9C58-B96469D15556-
+

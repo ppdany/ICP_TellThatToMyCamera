@@ -1,0 +1,285 @@
+TAuraTest
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/AuraTest.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch.pth AuraTest_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTestApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BDA0FB00000000000000AA
+t1371382011
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000512059C900000000000024F0
+t1361074633
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000514366D10000000000024DD8
+t1363371729
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000514366D100000000000060B4
+t1363371729
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000512059C900000000000001E5
+t1361074633
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000514366D1000000000000E9A8
+t1363371729
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051436B500000000000081CB0
+t1363372880
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051B0A96F000000000002DAD0
+t1370532207
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000519F44BC00000000004A2E10
+t1369392316
+s4861456
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../resources/CinderApp.icns
+c0000000051D2E0260000000000070375
+t1372774438
+s459637
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp
+c0000000051D30C70000000000000108F
+t1372785776
+s4239
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTest.LinkFileList
+c0000000051D30C700000000000000085
+t1372785776
+s133
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTestApp.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/Info.plist
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/MacOS/AuraTest
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/AuraTest_Prefix.pch
+c0000000051D2E027000000000000012D
+t1372774439
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051D2E0270000000000000462
+t1372774439
+s1122
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4e27a1f04383b741^4436acf04383b741^---0#1#0#--18"Check dependencies36"A1BE6DF6-47A9-4D1E-BEAC-4148A0599089-
+
+CCompileC ./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTestApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394478580.636683
+e394478581.948091
+r0
+xCompileC
+x./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTestApp.o
+x/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:25:24: error: field type 'cv::FaceRecognizer' is an abstract class
+o    cv::FaceRecognizer mFisherFaceRecModel;
+o                       ^
+o../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:928:30: note: unimplemented pure virtual method 'train' in 'FaceRecognizer'
+o        CV_WRAP virtual void train(InputArrayOfArrays src, InputArray labels) = 0;
+o                             ^
+o../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:934:21: note: unimplemented pure virtual method 'predict' in 'FaceRecognizer'
+o        virtual int predict(InputArray src) const = 0;
+o                    ^
+o../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:937:30: note: unimplemented pure virtual method 'predict' in 'FaceRecognizer'
+o        CV_WRAP virtual void predict(InputArray src, CV_OUT int &label, CV_OUT double &confidence) const = 0;
+o                             ^
+o../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:946:22: note: unimplemented pure virtual method 'save' in 'FaceRecognizer'
+o        virtual void save(FileStorage& fs) const = 0;
+o                     ^
+o../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:949:22: note: unimplemented pure virtual method 'load' in 'FaceRecognizer'
+o        virtual void load(const FileStorage& fs) = 0;
+o                     ^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:27:5: error: unknown type name 'String'; did you mean 'string'?
+o    String mpath;
+o    ^~~~~~
+o    string
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iosfwd:188:65: note: 'string' declared here
+otypedef basic_string<char, char_traits<char>, allocator<char> > string;
+o                                                                ^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:33:59: error: unknown type name 'Mat'; did you mean 'cv::Mat'?
+ovoid AuraTestApp::read_csv(const string& filename, vector<Mat>& images, vector<int>& labels, char separator = ';') {    
+o                                                          ^~~
+o                                                          cv::Mat
+o../blocks/OpenCV/include/opencv2/core/core.hpp:1658:18: note: 'cv::Mat' declared here
+oclass CV_EXPORTS Mat
+o                 ^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:33:19: error: out-of-line definition of 'read_csv' does not match any declaration in 'AuraTestApp'
+ovoid AuraTestApp::read_csv(const string& filename, vector<Mat>& images, vector<int>& labels, char separator = ';') {    
+o                  ^~~~~~~~
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:13:22: note: type of 1st parameter of member declaration does not match definition ('const string' (aka 'const basic_string<char, char_traits<char>, allocator<char> >') vs 'const string &' (aka 'const basic_string<char, char_traits<char>, allocator<char> > &'))
+o        void read_csv(const string filename, vector<Rectf> images, vector<int> labels, char separator = ';');
+o                            ^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:34:42: error: implicit instantiation of undefined template 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >'
+o    std::ifstream file(filename.c_str(), ifstream::in);
+o                                         ^
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iosfwd:130:27: note: template is declared here
+o    class _LIBCPP_VISIBLE basic_ifstream;
+o                          ^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:34:19: error: implicit instantiation of undefined template 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >'
+o    std::ifstream file(filename.c_str(), ifstream::in);
+o                  ^
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iosfwd:130:27: note: template is declared here
+o    class _LIBCPP_VISIBLE basic_ifstream;
+o                          ^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:45:30: error: use of undeclared identifier 'imread'; did you mean 'cv::imread'?
+o            images.push_back(imread(path, 0));
+o                             ^~~~~~
+o                             cv::imread
+o../blocks/OpenCV/include/opencv2/highgui/highgui.hpp:188:18: note: 'cv::imread' declared here
+oCV_EXPORTS_W Mat imread( const string& filename, int flags=1 );
+o                 ^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:55:10: error: member reference type 'cv::String' (aka 'basic_string<char, char_traits<char>, allocator<char> >') is not a pointer
+o    mPath->getAssetPath("ppdtest.csv");
+o    ~~~~~^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:60:5: error: no matching member function for call to 'read_csv'
+o    read_csv(mPath, mDBFaces, mDBLabels);
+o    ^~~~~~~~
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:13:7: note: candidate function not viable: no known conversion from 'cv::String' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'vector<int>' for 3rd argument
+o        void read_csv(const string filename, vector<Rectf> images, vector<int> labels, char separator = ';');
+o             ^
+o/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:33:19: note: candidate function not viable: no known conversion from 'vector<Rectf>' to 'vector<cv::Mat> &' for 2nd argument
+ovoid AuraTestApp::read_csv(const string& filename, vector<Mat>& images, vector<int>& labels, char separator = ';') {    
+o                  ^
+o9 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cppbe13a3f44383b741^42b4f2f54383b741^-5804"/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:25:24: error: field type 'cv::FaceRecognizer' is an abstract class    cv::FaceRecognizer mFisherFaceRecModel;                       ^../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:928:30: note: unimplemented pure virtual method 'train' in 'FaceRecognizer'        CV_WRAP virtual void train(InputArrayOfArrays src, InputArray labels) = 0;                             ^../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:934:21: note: unimplemented pure virtual method 'predict' in 'FaceRecognizer'        virtual int predict(InputArray src) const = 0;                    ^../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:937:30: note: unimplemented pure virtual method 'predict' in 'FaceRecognizer'        CV_WRAP virtual void predict(InputArray src, CV_OUT int &label, CV_OUT double &confidence) const = 0;                             ^../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:946:22: note: unimplemented pure virtual method 'save' in 'FaceRecognizer'        virtual void save(FileStorage& fs) const = 0;                     ^../blocks/OpenCV/include/opencv2/contrib/contrib.hpp:949:22: note: unimplemented pure virtual method 'load' in 'FaceRecognizer'        virtual void load(const FileStorage& fs) = 0;                     ^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:27:5: error: unknown type name 'String'; did you mean 'string'?    String mpath;    ^~~~~~    string/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iosfwd:188:65: note: 'string' declared heretypedef basic_string<char, char_traits<char>, allocator<char> > string;                                                                ^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:33:59: error: unknown type name 'Mat'; did you mean 'cv::Mat'?void AuraTestApp::read_csv(const string& filename, vector<Mat>& images, vector<int>& labels, char separator = ';') {                                                              ^~~                                                          cv::Mat../blocks/OpenCV/include/opencv2/core/core.hpp:1658:18: note: 'cv::Mat' declared hereclass CV_EXPORTS Mat                 ^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:33:19: error: out-of-line definition of 'read_csv' does not match any declaration in 'AuraTestApp'void AuraTestApp::read_csv(const string& filename, vector<Mat>& images, vector<int>& labels, char separator = ';') {                      ^~~~~~~~/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:13:22: note: type of 1st parameter of member declaration does not match definition ('const string' (aka 'const basic_string<char, char_traits<char>, allocator<char> >') vs 'const string &' (aka 'const basic_string<char, char_traits<char>, allocator<char> > &'))        void read_csv(const string filename, vector<Rectf> images, vector<int> labels, char separator = ';');                            ^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:34:42: error: implicit instantiation of undefined template 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >'    std::ifstream file(filename.c_str(), ifstream::in);                                         ^/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iosfwd:130:27: note: template is declared here    class _LIBCPP_VISIBLE basic_ifstream;                          ^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:34:19: error: implicit instantiation of undefined template 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >'    std::ifstream file(filename.c_str(), ifstream::in);                  ^/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/iosfwd:130:27: note: template is declared here    class _LIBCPP_VISIBLE basic_ifstream;                          ^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:45:30: error: use of undeclared identifier 'imread'; did you mean 'cv::imread'?            images.push_back(imread(path, 0));                             ^~~~~~                             cv::imread../blocks/OpenCV/include/opencv2/highgui/highgui.hpp:188:18: note: 'cv::imread' declared hereCV_EXPORTS_W Mat imread( const string& filename, int flags=1 );                 ^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:55:10: error: member reference type 'cv::String' (aka 'basic_string<char, char_traits<char>, allocator<char> >') is not a pointer    mPath->getAssetPath("ppdtest.csv");    ~~~~~^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:60:5: error: no matching member function for call to 'read_csv'    read_csv(mPath, mDBFaces, mDBLabels);    ^~~~~~~~/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:13:7: note: candidate function not viable: no known conversion from 'cv::String' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'vector<int>' for 3rd argument        void read_csv(const string filename, vector<Rectf> images, vector<int> labels, char separator = ';');             ^/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp:33:19: note: candidate function not viable: no known conversion from 'vector<Rectf>' to 'vector<cv::Mat> &' for 2nd argumentvoid AuraTestApp::read_csv(const string& filename, vector<Mat>& images, vector<int>& labels, char separator = ';') {                      ^9 errors generated.9(36%IDEClangDiagnosticActivityLogMessage2@52"Field type 'cv::FaceRecognizer' is an abstract class-394478581#18446744073709551615#0#5(2@61"Unimplemented pure virtual method 'train' in 'FaceRecognizer'-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@114"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/blocks/OpenCV/include/opencv2/contrib/contrib.hpp0000000000000000^927#29#927#29#36490#0#14"Semantic Issue--2@63"Unimplemented pure virtual method 'predict' in 'FaceRecognizer'-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/blocks/OpenCV/include/opencv2/contrib/contrib.hpp0000000000000000^933#20#933#20#36727#0#14"Semantic Issue--2@63"Unimplemented pure virtual method 'predict' in 'FaceRecognizer'-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/blocks/OpenCV/include/opencv2/contrib/contrib.hpp0000000000000000^936#29#936#29#36857#0#14"Semantic Issue--2@60"Unimplemented pure virtual method 'save' in 'FaceRecognizer'-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/blocks/OpenCV/include/opencv2/contrib/contrib.hpp0000000000000000^945#21#945#21#37262#0#14"Semantic Issue--2@60"Unimplemented pure virtual method 'load' in 'FaceRecognizer'-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/blocks/OpenCV/include/opencv2/contrib/contrib.hpp0000000000000000^948#21#948#21#37383#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^24#23#24#23#566#0#14"Semantic Issue--2@50"Unknown type name 'String'; did you mean 'string'?-394478581#18446744073709551615#0#1(2@22"'string' declared here-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file://localhost/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/iosfwd0000000000000000^187#64#187#64#7355#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^26#4#26#4#624#0#14"Semantic Issue1(3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^26#4#26#10#624#6#-2@48"Unknown type name 'Mat'; did you mean 'cv::Mat'?-394478581#18446744073709551615#0#1(2@23"'cv::Mat' declared here-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/blocks/OpenCV/include/opencv2/core/core.hpp0000000000000000^1657#17#1657#17#57920#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^32#58#32#58#775#0#14"Semantic Issue1(3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^32#58#32#61#775#3#-2@84"Out-of-line definition of 'read_csv' does not match any declaration in 'AuraTestApp'-394478581#18446744073709551615#0#1(2@248"Type of 1st parameter of member declaration does not match definition ('const string' (aka 'const basic_string<char, char_traits<char>, allocator<char> >') vs 'const string &' (aka 'const basic_string<char, char_traits<char>, allocator<char> > &'))-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^12#21#12#21#256#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^32#18#32#18#735#0#14"Semantic Issue1(3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^32#18#32#26#735#0#-2@107"Implicit instantiation of undefined template 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >'-394478581#18446744073709551615#0#1(2@25"Template is declared here-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file://localhost/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/iosfwd0000000000000000^129#26#129#26#5032#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^33#41#33#41#879#0#14"Semantic Issue--2@107"Implicit instantiation of undefined template 'std::__1::basic_ifstream<char, std::__1::char_traits<char> >'-394478581#18446744073709551615#0#1(2@25"Template is declared here-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file://localhost/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/iosfwd0000000000000000^129#26#129#26#5032#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^33#18#33#18#856#0#14"Semantic Issue--2@65"Use of undeclared identifier 'imread'; did you mean 'cv::imread'?-394478581#18446744073709551615#0#1(2@26"'cv::imread' declared here-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/blocks/OpenCV/include/opencv2/highgui/highgui.hpp0000000000000000^187#17#187#17#7170#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^44#29#44#29#1325#0#14"Semantic Issue1(3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^44#29#44#35#1325#6#-2@115"Member reference type 'cv::String' (aka 'basic_string<char, char_traits<char>, allocator<char> >') is not a pointer-394478581#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^54#9#54#9#1606#0#14"Semantic Issue1(3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^54#4#54#9#1601#0#-2@50"No matching member function for call to 'read_csv'-394478581#18446744073709551615#0#2(2@166"Candidate function not viable: no known conversion from 'cv::String' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'vector<int>' for 3rd argument-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^12#6#12#6#241#0#14"Semantic Issue1(3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^59#30#59#39#1729#0#-2@111"Candidate function not viable: no known conversion from 'vector<Rectf>' to 'vector<cv::Mat> &' for 2nd argument-394478581#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^32#18#32#18#735#0#14"Semantic Issue1(3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^59#20#59#28#1719#0#-2#27"com.apple.dt.IDE.diagnostic3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^59#4#59#4#1703#0#14"Semantic Issue1(3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/src/AuraTestApp.cpp0000000000000000^59#4#59#12#1703#0#-0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp0000000000000000^3076"CompileC ./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTestApp.o ../src/AuraTestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/AuraTest-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/AuraTest-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/AuraTest-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/AuraTest-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTestApp.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTestApp.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../src/AuraTestApp.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/Objects-normal/i386/AuraTestApp.o36"6DE123C5-8306-4D4E-9F95-4D855B3AE54A-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/AuraTest.app/Contents/Resources/CinderApp.icns
+s394478576.686466
+e394478576.695962
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/AuraTest.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy ./build/Debug/AuraTest.app/Contents/Resources/CinderApp.icns6f0db0f04383b741^e52ab2f04383b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/Resources/CinderApp.icns000000000080d041^458"CpResource ../resources/CinderApp.icns ./build/Debug/AuraTest.app/Contents/Resources/CinderApp.icns    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/../resources/CinderApp.icns /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/Resources36"B338C8F5-7D39-4CC9-9199-4E16CB6311EC-
+
+CLd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/MacOS/AuraTest normal i386
+r0
+
+CProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/Info.plist Info.plist
+s394478576.676055
+e394478576.678651
+r1
+xProcessInfoPlistFile
+x/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist711fadf04383b741^c30db0f04383b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/Info.plist0000000000000000^435"ProcessInfoPlistFile ./build/Debug/AuraTest.app/Contents/Info.plist Info.plist    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app/Contents/Info.plist36"9C89BBA2-73AD-480F-AB01-974C131C887F-
+
+CProcessPCH++ /Users/PpD/Library/Developer/Xcode/DerivedData/AuraTest-bxvcfasluchcvgclejqbrghdbdma/Index/PrecompiledHeaders/AuraTest_Prefix-epzvaymlihbqqzdlntaoibewtkal_ast/AuraTest_Prefix.pch.pth AuraTest_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch.pth AuraTest_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394478576.704390
+e394478580.630140
+r1
+xProcessPCH++
+x/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch.pth
+xAuraTest_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile AuraTest_Prefix.pcha96cb4f04383b741^a950a1f44383b741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/AuraTest_Prefix.pch0000000000000000^3084"ProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch.pth AuraTest_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/AuraTest-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/AuraTest-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/AuraTest-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/AuraTest-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/AuraTest.build/Debug/AuraTest.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/build/Debug --serialize-diagnostics /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/AuraTest_Prefix.pch -o /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AuraTest_Prefix-aaiihqevalyqwnhbxferdwmgathe/AuraTest_Prefix.pch.d36"E3FBFD2B-3A14-4C73-A0C5-85433E662700-
+
+CTouch /Users/PpD/ICP_TellThatToMyCamera/tests/AuraTest/xcode/./build/Debug/AuraTest.app
+r0
+

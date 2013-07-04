@@ -1,6 +1,8 @@
 dependencies: \
   /Users/PpD/ICP_TellThatToMyCamera/tests/CinderProject/xcode/../src/CinderProjectApp.cpp \
   ../../../../Documents/cinder_0.8.5_mac/include/cinder/app/AppNative.h \
+  ../../../../Documents/cinder_0.8.5_mac/include/cinder/Capture.h \
+  ../../../../Documents/cinder_0.8.5_mac/include/cinder/gl/Texture.h \
   /Users/PpD/ICP_TellThatToMyCamera/tests/CinderProject/xcode/../blocks/OpenCV/include/CinderOpenCV.h \
   ../blocks/OpenCV/include/opencv2/opencv.hpp \
   ../blocks/OpenCV/include/opencv2/core/core_c.h \
