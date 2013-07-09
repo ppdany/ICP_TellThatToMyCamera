@@ -16,7 +16,6 @@ public:
     void setup();
     void read_csv(string filename, vector<cv::Mat>& images, vector<int>& labels, char separator);
     void updateExpressions (Surface cameraImage);
-	void updateFaces( Surface cameraImage );
 	void update();
     void ColourTheAura(int label);
 	void draw();
@@ -24,22 +23,20 @@ public:
 	Capture			mCapture;
 	gl::Texture		mCameraTexture;
 	
-	cv::CascadeClassifier	mFaceCascade, mEyeCascade, mExpressionsCascade;
+	cv::CascadeClassifier       mExpressionsCascade;
     cv::Ptr<cv::FaceRecognizer> mFisherFaceRec = cv::createFisherFaceRecognizer(); // FACE RECOGNIZER ALGORITHM
     
-    string                  mPath;              // Path for CSV file
-    vector<cv::Mat>         mDBimgFaces;        // image vector to train the Face Recognizer
-    vector<int>             mDBLabels;          // int vector for the labels of the images for the Face Recognizer
-	vector<Rectf>			mFaces, mEyes, mExpressions;
-    
-    gl::Texture mTexture;                       // might be useful later
-    Surface mSurf;
-    
-    int                     predicted;
-    string                  predicted2;
+    string                  mPath;                      // Path for CSV file
+    vector<cv::Mat>         mDBimgFaces;                // image vector to train the Face Recognizer
+    vector<int>             mDBLabels,mPredictions;     // int vectors for the labels of the Face Recognizer
+	vector<Rectf>			mExpressions;
     gl::Texture             faceResized;
-    vector<Surface>         mCinderDBimgFaces;  // for testing purposes
-    vector<int>             mDBLabelsTEST;      // for testing purposes
+    
+    // FOR TESTING PURPOSES
+    gl::Texture mTexture;
+    Surface mSurf;          
+    vector<Surface>         mCinderDBimgFaces;
+    vector<int>             mDBLabelsTEST;
 };
 
 void ICPApp::read_csv( string filename, vector<cv::Mat>& images, vector<int>& labels, char separator = ';'){
@@ -63,8 +60,6 @@ void ICPApp::read_csv( string filename, vector<cv::Mat>& images, vector<int>& la
 
 void ICPApp::setup()
 {
-	mFaceCascade.load( getAssetPath( "haarcascade_frontalface_alt.xml" ).string() );
-	mEyeCascade.load( getAssetPath( "haarcascade_eye.xml" ).string() );
     mExpressionsCascade.load(getAssetPath("haarcascade_frontalface_alt.xml").string());
     mPath= getAssetPath("ppdtest.csv").string();
     
@@ -90,7 +85,10 @@ void ICPApp::updateExpressions (Surface cameraImage){
 	cv::Mat grayCameraImage( toOcv( cameraImage, CV_8UC1 ) ); // create a grayscale copy of the input image
    	cv::equalizeHist( grayCameraImage, grayCameraImage );	  // equalize the histogram for (just a little) more accuracy
     mExpressions.clear();             // clear out the previously deteced expressions
-    vector<cv::Rect> expressions;     // detect the faces and iterate them, appending them to mExpressions
+    mPredictions.clear();
+    vector<cv::Rect> expressions;
+    
+    // Next is to detect the faces and iterate them, appending them to mExpressions
     mExpressionsCascade.detectMultiScale(grayCameraImage, expressions);
     
     // At this point the position of the faces has been calculated!
@@ -107,63 +105,18 @@ void ICPApp::updateExpressions (Surface cameraImage){
         cv::Mat face = grayCameraImage(face_i);     // Image containing the detected face
         cv::Mat face_resized;                       // Image for the resized version of the detected face
         cv::resize(face, face_resized, graySq.size(), 1, 1, cv::INTER_CUBIC); // resizes the image
-//        cv::resize(face, face_resized, graySq.size(), 0, 0, cv::INTER_LINEAR);
+        // cv::resize(face, face_resized, graySq.size(), 0, 0, cv::INTER_LINEAR);
 
         // Now, perform the... EXPRESSION PREDICTION!!!
-        predicted = mFisherFaceRec->predict(face_resized);
-        // face_resized is only ONE face, this might mean (I'm not sure yet) that the prediction
-        // is currently done according to just ONE face so the colours
-        // for all the faces in the frame might be the same.
+        int predicted = mFisherFaceRec->predict(face_resized);
+        mPredictions.push_back(predicted);          // put the corresponding label to the corresponding face
         
         // FOR TESTING PURPOSES //
         cout << predicted ;
-        faceResized = (fromOcv(face_resized));
+        // faceResized = (fromOcv(face_resized));
         /////////////////////////
         
-        
-        // ColourTheAura(predicted);
-        // What's left is to assign the colour according to the label
-        // This is currently done at the update method, using the ColourTheAura function
-        // but that might have to be changed since that might be the reason for which the
-        // colour to all the faces in the current frame (if there's more than one), are the same.
-        // Either that, or the prediction should be made to a vector of faces instead of just "face_resized"
-        
     }    
-}
-
-void ICPApp::updateFaces( Surface cameraImage )
-{
-	const int calcScale = 2; // calculate the image at half scale
-	cv::Mat grayCameraImage( toOcv( cameraImage, CV_8UC1 ) ); // create a grayscale copy of the input image
-	int scaledWidth = cameraImage.getWidth() / calcScale;     // scale it to half size, as dictated by the calcScale constant
-	int scaledHeight = cameraImage.getHeight() / calcScale;
-	cv::Mat smallImg( scaledHeight, scaledWidth, CV_8UC1 );
-	cv::resize( grayCameraImage, smallImg, smallImg.size(), 0, 0, cv::INTER_LINEAR );
-	
-	cv::equalizeHist( smallImg, smallImg ); 	// equalize the histogram
-    
-	// clear out the previously deteced faces & eyes AND expressions
-	mFaces.clear();
-	mEyes.clear();
-    
-	// detect the faces and iterate them, appending them to mFaces
-	vector<cv::Rect> faces;
-	mFaceCascade.detectMultiScale( smallImg, faces );
-	for( vector<cv::Rect>::const_iterator faceIter = faces.begin(); faceIter != faces.end(); ++faceIter ) {
-		Rectf faceRect( fromOcv( *faceIter ) );
-		faceRect *= calcScale;
-		mFaces.push_back( faceRect );
-    		
-		// detect eyes within this face and iterate them, appending them to mEyes
-		vector<cv::Rect> eyes;
-		mEyeCascade.detectMultiScale( smallImg( *faceIter ), eyes );
-		for( vector<cv::Rect>::const_iterator eyeIter = eyes.begin(); eyeIter != eyes.end(); ++eyeIter ) {
-			Rectf eyeRect( fromOcv( *eyeIter ) );
-			eyeRect = eyeRect * calcScale + faceRect.getUpperLeft();
-			mEyes.push_back( eyeRect );
-            
-		}
-	}
 }
 
 void ICPApp::update()
@@ -172,12 +125,10 @@ void ICPApp::update()
 		Surface surface = mCapture.getSurface();
 		mCameraTexture = gl::Texture(surface);
         updateExpressions(surface);
-		updateFaces( surface );
         
 //      FOR TESTING PURPOSES
 //      mTexture = gl::Texture(mSurf);
 //      updateExpressions(mSurf);
-//		updateFaces( mSurf );
 
 	}
 }
@@ -225,7 +176,6 @@ void ICPApp::ColourTheAura(int label){
     else if (label == 9)    gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
     else{
             gl::color( ColorA( 1.f, 1.f, 1.f, 0.1f ) );
-            cout << "entre al super else";
     }
     
     /* The SWITCH version would be...
@@ -276,30 +226,18 @@ void ICPApp::draw()
 	gl::draw( mCameraTexture );
 	mCameraTexture.disable();
     
-//    draw the identified expressions
-//    gl::draw (mTexture);
+////  FOR TESTING PURPOSES  //////
+//    gl::draw (mTexture);  
 //    gl::draw( faceResized );
 //    gl::draw(mTexture);
+//////////////////////////////////
     
-    ColourTheAura(predicted);    
+    // Draw the corresponding coloured squares over the identified expressions
     for( vector<Rectf>::const_iterator expressionIter = mExpressions.begin(); expressionIter != mExpressions.end(); ++expressionIter ){
+        ColourTheAura(mPredictions[expressionIter-mExpressions.begin()]);
         gl::drawSolidRect( *expressionIter );
     }
     
-    /****** This part comes from the tutorial where there's face and eye detection
-	
-    // draw the faces as transparent yellow rectangles
-	gl::color( ColorA( 1, 1, 0, 0.45f ) );
-	for( vector<Rectf>::const_iterator faceIter = mFaces.begin(); faceIter != mFaces.end(); ++faceIter )
-		gl::drawSolidRect( *faceIter );
-	
-	// draw the eyes as transparent blue ellipses
-	gl::color( ColorA( 0, 0, 1, 0.35f ) );
-	for( vector<Rectf>::const_iterator eyeIter = mEyes.begin(); eyeIter != mEyes.end(); ++eyeIter )
-		gl::drawSolidCircle( eyeIter->getCenter(), eyeIter->getWidth() / 2 );
-     
-    *********/
-     
 }
 
 CINDER_APP_NATIVE( ICPApp, RendererGl )
