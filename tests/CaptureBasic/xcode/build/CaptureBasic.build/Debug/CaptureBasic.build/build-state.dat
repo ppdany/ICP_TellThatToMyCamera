@@ -55,8 +55,8 @@ t1370532207
 s187088
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c00000000519F44BC00000000004A2E10
-t1369392316
+c0000000051DA9AF800000000004A2E10
+t1373281016
 s4861456
 
 N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
@@ -4070,9 +4070,9 @@ t1372268172
 s459637
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cpp
-c0000000051CB26A0000000000000072C
-t1372268192
-s1836
+c0000000052067E4D0000000000000886
+t1376157261
+s2182
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasic.LinkFileList
 c0000000051CB26A00000000000000095
@@ -4080,11 +4080,11 @@ t1372268192
 s149
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.o
-t1372268197
-s1916656
+t1376157262
+s1919620
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app
-t1372268197
+t1376157263
 s102
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/Info.plist
@@ -4092,8 +4092,8 @@ t1372268192
 s1462
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic
-t1372268197
-s2846132
+t1376157263
+s2846944
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/PkgInfo
 t1372268192
@@ -4130,11 +4130,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies022da92a967db741^e4a2ba2a967db741^---0#1#0#--18"Check dependencies36"3EFE4F36-ACDC-4364-B0F0-0D289A2CB0A7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb1316ffeb5b6b741^dd5d6ffeb5b6b741^---0#1#0#--18"Check dependencies36"F50D0E33-179F-457B-8254-C476D579A9B6-
 
 CCompileC ./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s393960995.971504
-e393960997.087526
+s397850061.610007
+e397850062.856307
 r1
 xCompileC
 x./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.o
@@ -4143,7 +4143,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cpp3acbf8235e7bb741^946716255e7bb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cpp0000000000000000^3184"CompileC ./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.o ../src/CaptureBasicApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CaptureBasic_Prefix-ghnixbzlnnpmjvgpwttboyubovae/CaptureBasic_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.o36"31012E96-8A61-4D02-97C5-0613F93B0253-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cppd1409ccdb5b6b741^6936dbceb5b6b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cpp0000000000000000^3184"CompileC ./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.o ../src/CaptureBasicApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CaptureBasic_Prefix-ghnixbzlnnpmjvgpwttboyubovae/CaptureBasic_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../src/CaptureBasicApp.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasicApp.o36"F6936781-AFF6-428A-BD1C-B4BEBE0C698A-
 
 CCpResource ../resources/CinderApp.icns ./build/Debug/CaptureBasic.app/Contents/Resources/CinderApp.icns
 s393960992.873246
@@ -4155,14 +4155,14 @@ x./build/Debug/CaptureBasic.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy ./build/Debug/CaptureBasic.app/Contents/Resources/CinderApp.icns179adf205e7bb741^2635e0205e7bb741^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/Resources/CinderApp.icns000000000080d041^478"CpResource ../resources/CinderApp.icns ./build/Debug/CaptureBasic.app/Contents/Resources/CinderApp.icns    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/../resources/CinderApp.icns /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/Resources36"548F7F26-2122-4559-BFE6-2E98C96F49A3-
 
 CLd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic normal i386
-s393960997.094596
-e393960997.658330
+s397850062.864324
+e397850063.609423
 r1
 xLd
 x/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic564918255e7bb741^7288a8255e7bb741^---0#0#0#--1105"Ld ./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic normal i386    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug -F/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug -filelist /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasic.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Documents/cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic36"8AD65A5F-2989-4D42-B167-4BEA9D176CEE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic200adeceb5b6b741^e7569ccfb5b6b741^---0#0#0#--1105"Ld ./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic normal i386    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug -F/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug -filelist /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/Objects-normal/i386/CaptureBasic.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Documents/cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/MacOS/CaptureBasic36"69B41768-6567-4474-B248-278013A58F7B-
 
 CProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app/Contents/Info.plist Info.plist
 s393960992.862570
@@ -4190,10 +4190,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Precompile CaptureBasic_Prefix.pch7862e2205e7bb741^b91cf7235e7bb741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/CaptureBasic_Prefix.pch0000000000000000^3156"ProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CaptureBasic_Prefix-ghnixbzlnnpmjvgpwttboyubovae/CaptureBasic_Prefix.pch.pth CaptureBasic_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/CaptureBasic-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/CaptureBasic.build/Debug/CaptureBasic.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/build/Debug --serialize-diagnostics /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CaptureBasic_Prefix-ghnixbzlnnpmjvgpwttboyubovae/CaptureBasic_Prefix.pch.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/CaptureBasic_Prefix.pch -o /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CaptureBasic_Prefix-ghnixbzlnnpmjvgpwttboyubovae/CaptureBasic_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CaptureBasic_Prefix-ghnixbzlnnpmjvgpwttboyubovae/CaptureBasic_Prefix.pch.d36"9AD48D71-D13B-42E9-8DA1-B5E879691DB9-
 
 CTouch /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app
-s393960997.666682
-e393960997.671753
+s397850063.623206
+e397850063.629403
 r1
 xTouch
 x/Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.appd4b9aa255e7bb741^23f8ab255e7bb741^---0#0#0#--215"Touch ./build/Debug/CaptureBasic.app    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode    /usr/bin/touch -c /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app36"BFD409A0-1AE2-45CE-86B2-9C5C320C2228-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app07969fcfb5b6b741^5c20a1cfb5b6b741^---0#0#0#--215"Touch ./build/Debug/CaptureBasic.app    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode    /usr/bin/touch -c /Users/PpD/ICP_TellThatToMyCamera/tests/CaptureBasic/xcode/./build/Debug/CaptureBasic.app36"CA4D44F0-7A3B-43B0-A6B6-FF445C06975F-
 

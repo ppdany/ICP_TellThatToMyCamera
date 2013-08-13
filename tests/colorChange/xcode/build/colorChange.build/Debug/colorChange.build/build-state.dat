@@ -5,8 +5,8 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/Info.plist Info.plist
 cCpResource ../resources/CinderApp.icns ./build/Debug/colorChange.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/colorChange_Prefix-gqmfpdfkzezgnrfhvxxvsvhoremo/colorChange_Prefix.pch.pth colorChange_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/colorChange.build/Debug/colorChange.build/Objects-normal/i386/SquareListener2.o /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/SquareListener2.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/colorChange.build/Debug/colorChange.build/Objects-normal/i386/colorChangeApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/../src/colorChangeApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/colorChange.build/Debug/colorChange.build/Objects-normal/i386/SquareListener2.o /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/SquareListener2.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/MacOS/colorChange normal i386
 cTouch /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app
 
@@ -56,8 +56,8 @@ t1370532207
 s187088
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c00000000519F44BC00000000004A2E10
-t1369392316
+c0000000051DA9AF800000000004A2E10
+t1373281016
 s4861456
 
 N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
@@ -4071,7 +4071,7 @@ t1372416161
 s3537
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app
-t1372416182
+t1372416290
 s102
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/Info.plist
@@ -4079,7 +4079,7 @@ t1372246122
 s1459
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/MacOS/colorChange
-t1372416182
+t1372416290
 s3047560
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/PkgInfo
@@ -4095,8 +4095,8 @@ t1372250814
 s2312760
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/Objects-normal/i386/SquareListener2.o
-t2
-s0
+t1372416289
+s2294480
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/Objects-normal/i386/colorChange.LinkFileList
 c0000000051CAE8BA0000000000000123
@@ -4160,7 +4160,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3aeaaca0a07db741^3717afa0a07db741^---0#1#0#--18"Check dependencies36"A93E7D98-4912-42DA-BC0A-9658EB0D5D51-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd8f4dc3505b7b741^5ce8ee3505b7b741^---0#1#0#--18"Check dependencies36"80F3857A-EFC7-43C2-B95D-64BA4654024C-
 
 CCompileC ./build/colorChange.build/Debug/colorChange.build/Objects-normal/i386/SquareListener.o /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/SquareListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s393943613.240356
@@ -4211,14 +4211,14 @@ x./build/Debug/colorChange.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy ./build/Debug/colorChange.app/Contents/Resources/CinderApp.icnsbcad84ea077bb741^f3ca85ea077bb741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/Resources/CinderApp.icns000000000080d041^473"CpResource ../resources/CinderApp.icns ./build/Debug/colorChange.app/Contents/Resources/CinderApp.icns    cd /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/../resources/CinderApp.icns /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/Resources36"94CC1F40-A2F8-4B8D-8599-62C4D43945AB-
 
 CLd /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/MacOS/colorChange normal i386
-s394109090.007799
-e394109090.580811
+s397870389.987756
+e397870390.590151
 r1
 xLd
 x/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/MacOS/colorChange
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/MacOS/colorChange3b3a02a2a07db741^f7af94a2a07db741^---0#0#0#--1093"Ld ./build/Debug/colorChange.app/Contents/MacOS/colorChange normal i386    cd /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/build/Debug -F/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/build/Debug -filelist /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/Objects-normal/i386/colorChange.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Documents/cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/MacOS/colorChange36"75730704-7DEB-4C31-80E1-EE0DE02CAE94-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/MacOS/colorChange89effc3505b7b741^2314973605b7b741^---0#0#0#--1093"Ld ./build/Debug/colorChange.app/Contents/MacOS/colorChange normal i386    cd /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/build/Debug -F/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/build/Debug -filelist /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/Objects-normal/i386/colorChange.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Documents/cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/MacOS/colorChange36"D08C44DF-C9C5-4518-8D81-3F5139D28719-
 
 CProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app/Contents/Info.plist Info.plist
 s393938922.505108
@@ -4246,10 +4246,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile colorChange_Prefix.pchb90088ea077bb741^9d13efed077bb741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/colorChange_Prefix.pch0000000000000000^3120"ProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/colorChange_Prefix-gqmfpdfkzezgnrfhvxxvsvhoremo/colorChange_Prefix.pch.pth colorChange_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/colorChange-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/colorChange-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/colorChange-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/colorChange-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/colorChange.build/Debug/colorChange.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/build/Debug --serialize-diagnostics /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/colorChange_Prefix-gqmfpdfkzezgnrfhvxxvsvhoremo/colorChange_Prefix.pch.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/colorChange_Prefix.pch -o /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/colorChange_Prefix-gqmfpdfkzezgnrfhvxxvsvhoremo/colorChange_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/colorChange_Prefix-gqmfpdfkzezgnrfhvxxvsvhoremo/colorChange_Prefix.pch.d36"60316CDD-3EE2-4D05-BC54-47195654B005-
 
 CTouch /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app
-s394109090.588476
-e394109090.593204
+s397870390.597946
+e397870390.603013
 r1
 xTouch
 x/Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app18b296a2a07db741^27dc97a2a07db741^---0#0#0#--211"Touch ./build/Debug/colorChange.app    cd /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode    /usr/bin/touch -c /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app36"C89AF533-8DEB-46B8-98A9-03FE0F7B7694-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.appda1e993605b7b741^315f9a3605b7b741^---0#0#0#--211"Touch ./build/Debug/colorChange.app    cd /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode    /usr/bin/touch -c /Users/PpD/ICP_TellThatToMyCamera/tests/colorChange/xcode/./build/Debug/colorChange.app36"6D4A7D79-9CD9-4F2F-96F9-6E0370675CE2-
 

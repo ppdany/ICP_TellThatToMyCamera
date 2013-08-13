@@ -5,10 +5,8 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/Debug/CamColor.app/Contents/Info.plist Info.plist
 cCpResource ../resources/CinderApp.icns ./build/Debug/CamColor.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CamColor_Prefix-eupsswhmwbioyaezvibckmzehahm/CamColor_Prefix.pch.pth CamColor_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/SquareListener2.o /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/SquareListener2.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/Debug/CamColor.app/Contents/MacOS/CamColor normal i386
-cTouch /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/Debug/CamColor.app
+cCompileC ./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/SquareListener2.o /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/SquareListener2.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
 c0000000051BDA0FB00000000000000AA
@@ -56,8 +54,8 @@ t1370532207
 s187088
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c00000000519F44BC00000000004A2E10
-t1369392316
+c0000000051DA9AF800000000004A2E10
+t1373281016
 s4861456
 
 N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
@@ -4081,9 +4079,9 @@ t1372270010
 s459637
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp
-c0000000051CC75AE00000000000011A9
-t1372353966
-s4521
+c0000000051CD5FA500000000000011D3
+t1372413861
+s4563
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColor.LinkFileList
 c0000000051CB2E75000000000000010E
@@ -4091,8 +4089,8 @@ t1372270197
 s270
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.o
-t1372363322
-s2236596
+t2
+s0
 
 N/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/SquareListener2.o
 t1372270904
@@ -4158,12 +4156,12 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3ecc96ac957db741^ea7898ac957db741^---0#1#0#--18"Check dependencies36"06D1BAD3-D982-4A45-90C8-79B20FA6D6DF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4f5aa03e0eb7b741^6e6ac03e0eb7b741^---0#1#0#--18"Check dependencies36"2518B2EE-DA82-4A99-A59A-4A00B6BD62A0-
 
 CCompileC ./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.o /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s394056119.651809
-e394056122.103274
-r1
+s397872702.788475
+e397872704.261382
+r0
 xCompileC
 x./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.o
 x/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp
@@ -4171,7 +4169,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp3e06a7b7d17cb741^d66f1abad17cb741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp0000000000000000^3004"CompileC ./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.o ../src/CamColorApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/CamColor-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/CamColor-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/CamColor-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/CamColor-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CamColor_Prefix-eupsswhmwbioyaezvibckmzehahm/CamColor_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.o36"C5D875AC-BAD9-43CD-B799-8749790A3C73-
+o/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp:24:17: error: unknown type name 'Res'
+o    void resize(Res);
+o                ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cppb3ecc93e0eb7b741^e6e742400eb7b741^-175"/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp:24:17: error: unknown type name 'Res'    void resize(Res);                ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@23"Unknown type name 'Res'-397872704#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/src/CamColorApp.cpp0000000000000000^23#16#23#16#538#0#11"Parse Issue--0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp0000000000000000^3004"CompileC ./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.o ../src/CamColorApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/CamColor-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/CamColor-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/CamColor-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/CamColor-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CamColor_Prefix-eupsswhmwbioyaezvibckmzehahm/CamColor_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/../src/CamColorApp.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/CamColorApp.o36"7DC1D115-AE29-4684-8B87-0442CE863D5A-
 
 CCompileC ./build/CamColor.build/Debug/CamColor.build/Objects-normal/i386/SquareListener2.o /Users/PpD/ICP_TellThatToMyCamera/tests/CamColor/xcode/SquareListener2.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s393963703.093042

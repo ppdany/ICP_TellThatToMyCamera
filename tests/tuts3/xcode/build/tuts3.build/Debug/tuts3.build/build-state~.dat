@@ -1,0 +1,281 @@
+Ttuts3
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/tuts3.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch.pth tuts3_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/Particle.o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3App.o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../src/tuts3App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/ParticleController.o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/MacOS/tuts3 normal i386
+cTouch /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BDA0FB00000000000000AA
+t1371382011
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000512059C900000000000024F0
+t1361074633
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000514366D10000000000024DD8
+t1363371729
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000514366D100000000000060B4
+t1363371729
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000512059C900000000000001E5
+t1361074633
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000514366D1000000000000E9A8
+t1363371729
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051436B500000000000081CB0
+t1363372880
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051B0A96F000000000002DAD0
+t1370532207
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000519F44BC00000000004A2E10
+t1369392316
+s4861456
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../resources/CinderApp.icns
+c0000000051CB25410000000000070375
+t1372267841
+s459637
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../src/tuts3App.cpp
+c0000000051CB26150000000000000A4C
+t1372268053
+s2636
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/Info.plist
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/MacOS/tuts3
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/Particle.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/ParticleController.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3.LinkFileList
+c0000000051CB26150000000000000175
+t1372268053
+s373
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3App.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Particle.cpp
+c0000000051CB2615000000000000083F
+t1372268053
+s2111
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/ParticleController.cpp
+c0000000051CB26130000000000000594
+t1372268051
+s1428
+
+N/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/tuts3_Prefix.pch
+c0000000051CB2541000000000000012D
+t1372267841
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051CB25410000000000000462
+t1372267841
+s1122
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../src/tuts3App.cpp
+r0
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Particle.cpp
+r0
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/ParticleController.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2c65bd955d7bb741^0c22ca955d7bb741^---0#1#0#--18"Check dependencies36"40683495-E2F9-462D-8841-EE4CC152E901-
+
+CCompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/Particle.o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393960857.750766
+e393960858.949826
+r1
+xCompileC
+x./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/Particle.o
+x/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Particle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Particle.cppd15dc2995d7bb741^2427f39a5d7bb741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Particle.cpp0000000000000000^2855"CompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/Particle.o Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/Particle.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/Particle.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Particle.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/Particle.o36"4F0AD4D8-6AA3-48F4-87DE-198ED875F548-
+
+CCompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/ParticleController.o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/ParticleController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393960857.750866
+e393960859.192761
+r1
+xCompileC
+x./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/ParticleController.o
+x/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/ParticleController.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/ParticleController.cppb360c2995d7bb741^8658319b5d7bb741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/ParticleController.cpp0000000000000000^2915"CompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/ParticleController.o ParticleController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/ParticleController.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/ParticleController.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/ParticleController.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/ParticleController.o36"09A02BC7-E7A9-4155-8C4B-51E1FE6BCFEE-
+
+CCompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3App.o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../src/tuts3App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393960857.750738
+e393960859.241875
+r1
+xCompileC
+x./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3App.o
+x/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../src/tuts3App.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../src/tuts3App.cpp145ec2995d7bb741^10eb3d9b5d7bb741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../src/tuts3App.cpp0000000000000000^2869"CompileC ./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3App.o ../src/tuts3App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3App.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3App.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../src/tuts3App.cpp -o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3App.o36"37A83246-DD80-44DB-81E3-29B433DEC8D5-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/tuts3.app/Contents/Resources/CinderApp.icns
+s393960853.804705
+e393960853.811392
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/tuts3.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy ./build/Debug/tuts3.app/Contents/Resources/CinderApp.icnsaa0dce955d7bb741^52b7cf955d7bb741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/Resources/CinderApp.icns000000000080d041^443"CpResource ../resources/CinderApp.icns ./build/Debug/tuts3.app/Contents/Resources/CinderApp.icns    cd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/../resources/CinderApp.icns /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/Resources36"8719AC17-9A72-43F1-A158-A86A58C643E3-
+
+CLd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/MacOS/tuts3 normal i386
+s393960859.248670
+e393960860.069214
+r1
+xLd
+x/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/MacOS/tuts3
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/MacOS/tuts3a2b83f9b5d7bb741^45b8119c5d7bb741^---0#0#0#--1021"Ld ./build/Debug/tuts3.app/Contents/MacOS/tuts3 normal i386    cd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug -F/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug -filelist /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/Objects-normal/i386/tuts3.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Documents/cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/MacOS/tuts336"9B181483-AF0C-4A61-86DE-8928836BEAED-
+
+CProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/Info.plist Info.plist
+s393960853.793677
+e393960853.796669
+r1
+xProcessInfoPlistFile
+x/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistff42cb955d7bb741^cff5cd955d7bb741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/Info.plist0000000000000000^417"ProcessInfoPlistFile ./build/Debug/tuts3.app/Contents/Info.plist Info.plist    cd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app/Contents/Info.plist36"270BB70D-A60A-4CF7-9B2E-7E59033580F6-
+
+CProcessPCH++ /Users/PpD/Library/Developer/Xcode/DerivedData/tuts3-ffuctzbfaelkhpdsolvsgcackmqi/Index/PrecompiledHeaders/tuts3_Prefix-edhjjvqjjkpsaqepcgciztaugars_ast/tuts3_Prefix.pch.pth tuts3_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch.pth tuts3_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393960853.819397
+e393960857.732747
+r1
+xProcessPCH++
+x/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch.pth
+xtuts3_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precompile tuts3_Prefix.pch01dbd1955d7bb741^2122b9995d7bb741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/tuts3_Prefix.pch0000000000000000^2904"ProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch.pth tuts3_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/tuts3-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/tuts3.build/Debug/tuts3.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/build/Debug --serialize-diagnostics /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch.dia -c /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/tuts3_Prefix.pch -o /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tuts3_Prefix-eldrnmxuoqqrkuhivmgiaslnxzko/tuts3_Prefix.pch.d36"11F92DE0-DB7E-40C2-AEB4-2A23D33BB9FB-
+
+CTouch /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app
+s393960860.077361
+e393960860.084307
+r1
+xTouch
+x/Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Touch /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app51da139c5d7bb741^2595159c5d7bb741^---0#0#0#--187"Touch ./build/Debug/tuts3.app    cd /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode    /usr/bin/touch -c /Users/PpD/ICP_TellThatToMyCamera/tests/tuts3/xcode/./build/Debug/tuts3.app36"3D3A3988-79F0-4034-8397-13EF7C8FEB5B-
+

@@ -1,0 +1,229 @@
+TTellThatToMyCamera_v2_0
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch.pth TellThatToMyCamera_v2_0_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0App.o /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/MacOS/TellThatToMyCamera_v2_0 normal i386
+cTouch /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BDA0FB00000000000000AA
+t1371382011
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000512059C900000000000024F0
+t1361074633
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000514366D10000000000024DD8
+t1363371729
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000514366D100000000000060B4
+t1363371729
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000512059C900000000000001E5
+t1361074633
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000514366D1000000000000E9A8
+t1363371729
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051436B500000000000081CB0
+t1363372880
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051B0A96F000000000002DAD0
+t1370532207
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000051DA9AF800000000004A2E10
+t1373281016
+s4861456
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/PpD/Documents/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../resources/CinderApp.icns
+c000000005207BE890000000000070375
+t1376239241
+s459637
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp
+c000000005207BEF80000000000003FEE
+t1376239352
+s16366
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Info.plist
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/MacOS/TellThatToMyCamera_v2_0
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0.LinkFileList
+c000000005207BEF800000000000000C4
+t1376239352
+s196
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0App.o
+t2
+s0
+
+N/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/TellThatToMyCamera_v2_0_Prefix.pch
+c000000005207BE89000000000000012D
+t1376239241
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c000000005207BE890000000000000462
+t1376239241
+s1122
+
+CBuild AST from /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7ac6aa78f6b7b741^f4a8b078f6b7b741^---0#1#0#--18"Check dependencies36"736D82D2-8A71-4FE8-A963-53ADF0B89EA3-
+
+CCompileC ./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0App.o /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397932156.366705
+e397932158.443807
+r1
+xCompileC
+x./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0App.o
+x/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp88f65d7cf6b7b741^349d717ef6b7b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp0000000000000000^3790"CompileC ./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0App.o ../src/TellThatToMyCamera_v2_0App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/TellThatToMyCamera_v2_0-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/TellThatToMyCamera_v2_0-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/TellThatToMyCamera_v2_0-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/TellThatToMyCamera_v2_0-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/build/Debug -include /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch -MMD -MT dependencies -MF /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0App.d --serialize-diagnostics /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0App.dia -c /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp -o /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0App.o36"11B5F026-AA37-490C-8FDE-3D8EFD757367-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Resources/CinderApp.icns
+s397932152.705103
+e397932152.712009
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy ./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Resources/CinderApp.icns3a95b478f6b7b741^2846b678f6b7b741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Resources/CinderApp.icns000000000080d041^542"CpResource ../resources/CinderApp.icns ./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Resources/CinderApp.icns    cd /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../resources/CinderApp.icns /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Resources36"22811866-863A-4836-94A6-7766B587F814-
+
+CLd /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/MacOS/TellThatToMyCamera_v2_0 normal i386
+s397932158.450750
+e397932159.508269
+r1
+xLd
+x/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/MacOS/TellThatToMyCamera_v2_0
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/MacOS/TellThatToMyCamera_v2_0d177737ef6b7b741^c91d827ff6b7b741^---0#0#0#--2005"Ld ./build/Debug/TellThatToMyCamera_v2_0.app/Contents/MacOS/TellThatToMyCamera_v2_0 normal i386    cd /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/build/Debug -F/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/build/Debug -filelist /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/Objects-normal/i386/TellThatToMyCamera_v2_0.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Documents/cinder_0.8.5_mac/lib/libcinder_d.a ../blocks/OpenCV/lib/macosx/libopencv_calib3d.a ../blocks/OpenCV/lib/macosx/libopencv_contrib.a ../blocks/OpenCV/lib/macosx/libopencv_core.a ../blocks/OpenCV/lib/macosx/libopencv_features2d.a ../blocks/OpenCV/lib/macosx/libopencv_flann.a ../blocks/OpenCV/lib/macosx/libopencv_gpu.a ../blocks/OpenCV/lib/macosx/libopencv_imgproc.a ../blocks/OpenCV/lib/macosx/libopencv_legacy.a ../blocks/OpenCV/lib/macosx/libopencv_ml.a ../blocks/OpenCV/lib/macosx/libopencv_nonfree.a ../blocks/OpenCV/lib/macosx/libopencv_objdetect.a ../blocks/OpenCV/lib/macosx/libopencv_photo.a ../blocks/OpenCV/lib/macosx/libopencv_stitching.a ../blocks/OpenCV/lib/macosx/libopencv_ts.a ../blocks/OpenCV/lib/macosx/libopencv_video.a ../blocks/OpenCV/lib/macosx/libopencv_videostab.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/MacOS/TellThatToMyCamera_v2_036"5A9E2168-DA12-47E8-AB61-51106DA60E39-
+
+CProcessInfoPlistFile /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Info.plist Info.plist
+s397932152.693848
+e397932152.696318
+r1
+xProcessInfoPlistFile
+x/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistc9adb178f6b7b741^2636b378f6b7b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/Info.plist0000000000000000^534"ProcessInfoPlistFile ./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Info.plist Info.plist    cd /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app/Contents/Info.plist36"C25F3E3D-FDD9-459F-BC96-D77000FBAB72-
+
+CProcessPCH++ /Users/PpD/Library/Developer/Xcode/DerivedData/TellThatToMyCamera_v2_0-cscggiwifhoslifpqupmykqjfyse/Index/PrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-djrhjjhniimtahdzquxjigslwelz_ast/TellThatToMyCamera_v2_0_Prefix.pch.pth TellThatToMyCamera_v2_0_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch.pth TellThatToMyCamera_v2_0_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397932152.729981
+e397932156.359845
+r1
+xProcessPCH++
+x/var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch.pth
+xTellThatToMyCamera_v2_0_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile TellThatToMyCamera_v2_0_Prefix.pch0b0ebb78f6b7b741^791e5c7cf6b7b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/TellThatToMyCamera_v2_0_Prefix.pch0000000000000000^3654"ProcessPCH++ /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch.pth TellThatToMyCamera_v2_0_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/TellThatToMyCamera_v2_0-generated-files.hmap -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/TellThatToMyCamera_v2_0-own-target-headers.hmap -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/TellThatToMyCamera_v2_0-all-target-headers.hmap -iquote /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/TellThatToMyCamera_v2_0-project-headers.hmap -iquote../../../../Documents/cinder_0.8.5_mac/include -iquote../include -iquote../blocks/OpenCV/include -iquote../blocks/OpenCV/include/opencv2 -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/build/Debug/include -I../../../../Documents/cinder_0.8.5_mac/boost -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/DerivedSources/i386 -I/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/TellThatToMyCamera_v2_0.build/Debug/TellThatToMyCamera_v2_0.build/DerivedSources -F/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/build/Debug --serialize-diagnostics /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch.dia -c /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/TellThatToMyCamera_v2_0_Prefix.pch -o /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s0/w53zkw815dz5v38c1p6x5_pm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TellThatToMyCamera_v2_0_Prefix-gnddleezcviohagsgkkgsyacqsdr/TellThatToMyCamera_v2_0_Prefix.pch.d36"CE667089-74B5-47B4-92AC-4149989B9678-
+
+CTouch /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app
+s397932159.516524
+e397932159.523295
+r1
+xTouch
+x/Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Touch /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.appcf48847ff6b7b741^98f6857ff6b7b741^---0#0#0#--265"Touch ./build/Debug/TellThatToMyCamera_v2_0.app    cd /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode    /usr/bin/touch -c /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/./build/Debug/TellThatToMyCamera_v2_0.app36"B05DDC3C-A8FE-4DD5-824D-1864617DF625-
+

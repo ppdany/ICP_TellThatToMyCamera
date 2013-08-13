@@ -2,6 +2,8 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/Texture.h"
 #include "cinder/Capture.h"
+#include <fstream>
+#include <iostream>
 
 using namespace ci;
 using namespace ci::app;
@@ -15,12 +17,13 @@ public:
 	void draw();
     
 	CaptureRef			mCapture;
+    Capture             mCapture2;
 	gl::TextureRef		mTexture;
 };
 
 void CaptureBasicApp::setup()
 {
-	// print the devices
+    // print the devices
 	for( auto device = Capture::getDevices().begin(); device != Capture::getDevices().end(); ++device ) {
 		console() << "Device: " << (*device)->getName() << " "
 #if defined( CINDER_COCOA_TOUCH )
@@ -30,8 +33,14 @@ void CaptureBasicApp::setup()
 	}
     
 	try {
-		mCapture = Capture::create( 640, 480 );
-		mCapture->start();
+/*        auto device= Capture::getDevices().at(1);
+//        std::cout << "Device: " << (*device)->getName() << " ";
+        std::cout << "Device: " << device->getName() << " ";
+*/
+        Capture::DeviceRef device = Capture::getDevices().at(1);
+        mCapture = Capture::create( 640, 480, device );
+  		mCapture->start();
+     
 	}
 	catch( ... ) {
 		console() << "Failed to initialize capture" << std::endl;

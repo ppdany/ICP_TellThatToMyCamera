@@ -1,3 +1,23 @@
+/*
+ * Tell That To My Camera v1.0
+ * Copyright (c) 2013. Jose Daniel Leal Avila and The University of Edinburgh. All rights reserved.
+ * The author and the University of Edinburgh retain the right to reproduce and publish this software for non-commercial purposes. Permission to use, copy, modify, and distribute this software and its documentation for educational, research, and not-for-profit purposes, without fee and without a signed licensing agreement, is hereby granted, provided that the above copyright notice, this paragraph and the following disclaimer appear in all copies, modifications, and distributions. The rest of the present paragraphs can optionally be included. Applications to make other use of the material should be addressed in the first instance to the author at jdanielleal[AT]gmail[DOT]com, in the second instance, to the MSc by Res. in Interdisciplinary Creative Practices programme administrator and in the final instance, to Copyright Permissions, Division of Informatics, The University of Edinburgh, 80 South Bridge, Edinburgh EH1 1HN, Scotland. The authors and the University of Edinburgh retain the right to reproduce and publish this software for non-commercial purposes.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ 
+ * This software has been developed as part of the final project
+ * for the programme MSc. by Res. in Interdisciplinary Creative Practices.
+ * Author: Jose Daniel Leal Avila
+ * jdanielleal@gmail.com        j.leal-avila@sms.ed.ac.uk
+ * University student id. s1217971
+ * Programme Director: Simon Biggs  s.biggs@ed.ac.uk
+ *
+ * MSc by Research in Interdisciplinary Creative Practices
+ * The University of Edinburgh.
+ * Edinburgh College of Art.
+ * Edinburgh School of Architecture and Landscape Architecture.
+ *
+ */
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Rect.h"
@@ -30,13 +50,6 @@ public:
     vector<cv::Mat>         mDBimgFaces;                // image vector to train the Face Recognizer
     vector<int>             mDBLabels,mPredictions;     // int vectors for the labels of the Face Recognizer
 	vector<Rectf>			mExpressions;
-    gl::Texture             faceResized;
-    
-    // FOR TESTING PURPOSES
-    gl::Texture mTexture;
-    Surface mSurf;
-    vector<Surface>         mCinderDBimgFaces;
-    vector<int>             mDBLabelsTEST;
 };
 
 void TellThatToMyCamera_v1_0App::read_csv( string filename, vector<cv::Mat>& images, vector<int>& labels, char separator = ';'){
@@ -47,7 +60,6 @@ void TellThatToMyCamera_v1_0App::read_csv( string filename, vector<cv::Mat>& ima
         getline(liness, path, separator);           // Put the first part of the line in path
         getline(liness, classlabel);                // Put the second part of the line in classlabel
         if(!path.empty() && !classlabel.empty()) {  // If there are still paths and labels
-            //cout<<path << "\n";
             //images.push_back(cv::imread(path, 0));    // imread DOESN'T WORK, it gives compiler errors!!!
             // SINCE the previous line doesn't work...
             ci::Surface8u surface(loadImage(path));       // assign the image to a surface
@@ -68,23 +80,12 @@ void TellThatToMyCamera_v1_0App::setup()
     
     read_csv(mPath, mDBimgFaces, mDBLabels);        // Read DB of faces for FaceRec algorithm
     mFisherFaceRec->train(mDBimgFaces, mDBLabels);  // Train the Fisher Face Recognizer algorithm
-    
-    // FOR TESTING PURPOSES
-    //    mSurf=(loadImage("/Users/PpD/Desktop/EcA - Pp DanY/MSc ICP/Semester 2/ICP 3/Faces DB Original/hugh_laurie_extra1.jpg"));
-    //  mTexture = gl::Texture(mCinderDBimgFaces);
-    //  mTexture = gl::Texture( fromOcv( input ) );
-    //  cv::Mat output;
-    //  mTexture = gl::Texture( fromOcv( loadImage("/Users/PpD/Desktop/emotionsrec2/data/emotions/0neutral/amy_adams_neutral.jpg") ) );
-    //  mDBLabelsTEST.push_back(0);
-    //  mDBLabelsTEST.push_back(1);
-    //  mFisherFaceRec->train(mDBimgFaces, mDBLabelsTEST);
-    //  mFisherFaceRec->train(mDBimgFaces, mDBLabels);
 }
 
 void TellThatToMyCamera_v1_0App::updateExpressions (Surface cameraImage){
-	cv::Mat grayCameraImage( toOcv( cameraImage, CV_8UC1 ) ); // create a grayscale copy of the input image
-   	cv::equalizeHist( grayCameraImage, grayCameraImage );	  // equalize the histogram for (just a little) more accuracy
-    mExpressions.clear();             // clear out the previously deteced expressions
+	cv::Mat grayCameraImage( toOcv( cameraImage, CV_8UC1 ) );   // create a grayscale copy of the input image
+   	cv::equalizeHist( grayCameraImage, grayCameraImage );       // equalize the histogram for (just a little) more accuracy
+    mExpressions.clear();                                       // clear out the previously deteced expressions
     mPredictions.clear();
     vector<cv::Rect> expressions;
     
@@ -92,7 +93,7 @@ void TellThatToMyCamera_v1_0App::updateExpressions (Surface cameraImage){
     mExpressionsCascade.detectMultiScale(grayCameraImage, expressions);
     
     // At this point the position of the faces has been calculated!
-    // Now it's time to get the faces, make a prediction and annotate it in the video. Awesome or what?
+    // Now it's time to get the faces, make a prediction and save it for the video.
     
     cv::Mat graySq(100,100,CV_8UC1);    // gray square for assigning the proper size of the resized detected faces
     
@@ -101,21 +102,15 @@ void TellThatToMyCamera_v1_0App::updateExpressions (Surface cameraImage){
         Rectf expressionRect(fromOcv(*expressionIter));
         mExpressions.push_back(expressionRect);
         
-        cv::Rect face_i (*expressionIter);          // Rect with data (size and position) of the detected face
-        cv::Mat face = grayCameraImage(face_i);     // Image containing the detected face
-        cv::Mat face_resized;                       // Image for the resized version of the detected face
+        cv::Rect face_i (*expressionIter);                      // Rect with data (size and position) of the detected face
+        cv::Mat face = grayCameraImage(face_i);                 // Image containing the detected face
+        cv::Mat face_resized;                                   // Image for the resized version of the detected face
         cv::resize(face, face_resized, graySq.size(), 1, 1, cv::INTER_CUBIC); // resizes the image
         // cv::resize(face, face_resized, graySq.size(), 0, 0, cv::INTER_LINEAR);
         
-        // Now, perform the... EXPRESSION PREDICTION!!!
+        // Now, perform the EXPRESSION PREDICTION!!!
         int predicted = mFisherFaceRec->predict(face_resized);
-        mPredictions.push_back(predicted);          // put the corresponding label to the corresponding face
-        
-        // FOR TESTING PURPOSES //
-        cout << predicted ;
-        // faceResized = (fromOcv(face_resized));
-        /////////////////////////
-        
+        mPredictions.push_back(predicted);                      // put the corresponding label to the corresponding face
     }
 }
 
@@ -125,11 +120,6 @@ void TellThatToMyCamera_v1_0App::update()
 		Surface surface = mCapture.getSurface();
 		mCameraTexture = gl::Texture(surface);
         updateExpressions(surface);
-        
-        //      FOR TESTING PURPOSES
-        //      mTexture = gl::Texture(mSurf);
-        //      updateExpressions(mSurf);
-        
 	}
 }
 
@@ -137,80 +127,82 @@ void TellThatToMyCamera_v1_0App::ColourTheAura(int label){
     /* Method for the drawing of a transparent rectangle over the face
      The color depends on the label (the identified expression)
      
-     FOR THE TEST DB                    RGB Value
-     0neutral       -   Light Blue      173,216,230
+     FOR THE TEST DB                    RGB Value    
+     0neutral       -   White           255,255,255
      1angry         -   Red             255,0,0
-     2contempt      -   Dark Red        139,0,0
-     3disgust       -   Purple          128,0,128
+     2contempt      -   Green(Lime)     50,205,50
+     3disgust       -   Brown(Saddle)   139,69,19
      4sad           -   Blue            0,0,255
-     5happy         -   Green(Lime)     50,205,50
-     6fear          -   Yellow(ish)     255,215,0
+     5happy         -   Yellow(gold)    255,215,0
+     6fear          -   Black           0,0,0
      7surprise      -   Orange          255,165,0
-     8extra1        -   Gray            169,169,169
-     9extra2        -   White           255,255,255
-     none           -   Transparent     1,1,1 with 0 alpha
+     8extra1        -   Purple          128,0,128
+     9extra2        -   Pink            238,15,151
+     none           -   Transparent     255,255,255 with 0.1 alpha   ***Bug only. Should never happen***
      
-     FOR THE PROPER DB
-     0neutral       -   Light Blue      173,216,230
-     1happy         -   Green(Lime)     50,205,50
+     FOR THE PROJECT DB
+     0neutral       -   White           255,255,255
+     1happy         -   Yellow(gold)    255,215,0
      2surprise      -   Orange          255,165,0
      3sad           -   Blue            0,0,255
      4anger         -   Red             255,0,0
-     5fear          -   Yellow          255,215,0
-     6contempt      -   Dark Red        139,0,0
-     7disgust       -   Purple          128,0,128
-     8extra1glasses -   Gray            169,169,169
-     9extra2other   -   White           255,255,255
-     none           -   Transparent     1,1,1 with 0 alpha
+     5fear          -   Black           0,0,0
+     6contempt      -   Green(Lime)     50,205,50
+     7disgust       -   Brown(Saddle)   139,69,19
+     none           -   Transparent     255,255,255 with 0.1 alpha   ***Bug only. Should never happen***
      */
-    
-    if (label == 0)         gl::color( ColorA( (173.f*(1.f/255.f)), (216.f*(1.f/255.f)), (230.f*(1.f/255.f)), 0.45f ) );
+    /*
+    if (label == 0)         gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
     else if (label == 1)    gl::color( ColorA( 1.f, 0.f, 0.f, 0.45f ) );
-    else if (label == 2)    gl::color( ColorA( (139.f*(1.f/255.f)), 0.f, 0.f, 0.45f ) );
-    else if (label == 3)    gl::color( ColorA( (128.f*(1.f/255.f)), 0.f, (128.f*(1.f/255.f)), 0.45f ) );
+    else if (label == 2)    gl::color( ColorA( (50.f*(1.f/255.f)), (205.f*(1.f/255.f)), (50.f*(1.f/255.f)), 0.45f ) );
+    else if (label == 3)    gl::color( ColorA( (139.f*(1.f/255.f)), (69.f*(1.f/255.f)), (19.f*(1.f/255.f)), 0.45f ) );
     else if (label == 4)    gl::color( ColorA( 0.f, 0.f, 1.f, 0.45f ) );
-    else if (label == 5)    gl::color( ColorA( (50.f*(1.f/255.f)), (205.f*(1.f/255.f)), (50.f*(1.f/255.f)), 0.45f ) );
-    else if (label == 6)    gl::color( ColorA( 1.f, (215.f*(1.f/255.f)), 0, 0.45f ) );
+    else if (label == 5)    gl::color( ColorA( 1.f, (215.f*(1.f/255.f)), 0, 0.45f ) );
+    else if (label == 6)    gl::color( ColorA( 0.f, 0.f, 0.f, 0.45f ) );
     else if (label == 7)    gl::color( ColorA( 1.f, (165.f*(1.f/255.f)), 0, 0.45f ) );
-    else if (label == 8)    gl::color( ColorA( (169.f*(1.f/255.f)), (169.f*(1.f/255.f)), (169.f*(1.f/255.f)), 0.45f ) );
-    else if (label == 9)    gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
+    else if (label == 8)    gl::color( ColorA( (128.f*(1.f/255.f)), 0.f, (128.f*(1.f/255.f)), 0.45f ) );
+    else if (label == 9)    gl::color( ColorA( (238.f*(1.f/255.f)), (15.f*(1.f/255.f)), (151.f*(1.f/255.f)), 0.45f ) );
     else{
         gl::color( ColorA( 1.f, 1.f, 1.f, 0.1f ) );
-    }
+    }*/
     
-    /* The SWITCH version would be...
-     switch ( label ) // TEST DB Right Now
+    /* The SWITCH version */
+     switch ( label ) // Uses TEST DB
      {
-     case '0':
-     gl::color( ColorA( (173.f*(1.f/255.f)), (216.f*(1.f/255.f)), (230.f*(1.f/255.f)), 0.45f ) );
+     case 0:
+     gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
      break;
-     case '1':
+     case 1:
      gl::color( ColorA( 1.f, 0.f, 0.f, 0.45f ) );
      break;
-     case '2':
-     gl::color( ColorA( (139.f*(1.f/255.f)), 0.f, 0.f, 0.45f ) );
+     case 2:
+     gl::color( ColorA( (50.f*(1.f/255.f)), (205.f*(1.f/255.f)), (50.f*(1.f/255.f)), 0.45f ) );
      break;
-     case '3':
-     gl::color( ColorA( (128.f*(1.f/255.f)), 0.f, (128.f*(1.f/255.f)), 0.45f ) );
-     case '4':
+     case 3:
+     gl::color( ColorA( (139.f*(1.f/255.f)), (69.f*(1.f/255.f)), (19.f*(1.f/255.f)), 0.45f ) );
+     break;
+     case 4:
      gl::color( ColorA( 0.f, 0.f, 1.f, 0.45f ) );
      break;
-     case '5':
-     gl::color( ColorA( (50.f*(1.f/255.f)), (205.f*(1.f/255.f)), (50.f*(1.f/255.f)), 0.45f ) );
-     case '6':
+     case 5:
      gl::color( ColorA( 1.f, (215.f*(1.f/255.f)), 0, 0.45f ) );
      break;
-     case '7':
-     gl::color( ColorA( 1.f, (165.f*(1.f/255.f)), 0, 0.45f ) );
-     case '8':
-     gl::color( ColorA( (169.f*(1.f/255.f)), (169.f*(1.f/255.f)), (169.f*(1.f/255.f)), 0.45f ) );
+     case 6:
+     gl::color( ColorA( 0.f, 0.f, 0.f, 0.45f ) );
      break;
-     case '9':
-     gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
-     
+     case 7:
+     gl::color( ColorA( 1.f, (165.f*(1.f/255.f)), 0, 0.45f ) );
+     break;
+     case 8:
+     gl::color( ColorA( (128.f*(1.f/255.f)), 0.f, (128.f*(1.f/255.f)), 0.45f ) );
+     break;
+     case 9:
+     gl::color( ColorA( (238.f*(1.f/255.f)), (15.f*(1.f/255.f)), (151.f*(1.f/255.f)), 0.45f ) );
+     break;
      default:
      gl::color( ColorA( 1.f, 1.f, 1.f, 0.1f ) );
-     }*/
+     break;
+     }
 }
 
 void TellThatToMyCamera_v1_0App::draw()
@@ -225,12 +217,6 @@ void TellThatToMyCamera_v1_0App::draw()
 	gl::color( Color( 1, 1, 1 ) );
 	gl::draw( mCameraTexture );
 	mCameraTexture.disable();
-    
-    ////  FOR TESTING PURPOSES  //////
-    //    gl::draw (mTexture);
-    //    gl::draw( faceResized );
-    //    gl::draw(mTexture);
-    //////////////////////////////////
     
     // Draw the corresponding coloured squares over the identified expressions
     for( vector<Rectf>::const_iterator expressionIter = mExpressions.begin(); expressionIter != mExpressions.end(); ++expressionIter ){

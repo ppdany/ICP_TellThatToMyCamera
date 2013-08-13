@@ -134,83 +134,81 @@ void ICPApp::update()
 }
 
 void ICPApp::ColourTheAura(int label){
-    /* Method for the drawing of a transparent rectangle over the face 
+    /* Method for the drawing of a transparent rectangle over the face
      The color depends on the label (the identified expression)
-    
-     FOR THE TEST DB                    RGB Value
-     0neutral       -   Light Blue      173,216,230
-     1angry         -   Red             255,0,0
-     2contempt      -   Dark Red        139,0,0
-     3disgust       -   Purple          128,0,128
-     4sad           -   Blue            0,0,255
-     5happy         -   Green(Lime)     50,205,50
-     6fear          -   Yellow(ish)     255,215,0
-     7surprise      -   Orange          255,165,0
-     8extra1        -   Gray            169,169,169
-     9extra2        -   White           255,255,255
-     none           -   Transparent     1,1,1 with 0 alpha
      
-     FOR THE PROPER DB
-     0neutral       -   Light Blue      173,216,230
-     1happy         -   Green(Lime)     50,205,50
+     FOR THE TEST DB                    RGB Value
+     0neutral       -   White           255,255,255
+     1angry         -   Red             255,0,0
+     2contempt      -   Green(Lime)     50,205,50
+     3disgust       -   Brown(Saddle)   139,69,19
+     4sad           -   Blue            0,0,255
+     5happy         -   Yellow(gold)    255,215,0
+     6fear          -   Black           0,0,0
+     7surprise      -   Orange          255,165,0
+     8extra1        -   Purple          128,0,128
+     9extra2        -   Pink            238,15,151
+     none           -   Transparent     255,255,255 with 0.1 alpha   ***Bug only. Should never happen***
+     
+     FOR THE PROJECT DB
+     0neutral       -   White           255,255,255
+     1happy         -   Yellow(gold)    255,215,0
      2surprise      -   Orange          255,165,0
      3sad           -   Blue            0,0,255
      4anger         -   Red             255,0,0
-     5fear          -   Yellow          255,215,0
-     6contempt      -   Dark Red        139,0,0
-     7disgust       -   Purple          128,0,128
-     8extra1glasses -   Gray            169,169,169
-     9extra2other   -   White           255,255,255
-     none           -   Transparent     1,1,1 with 0 alpha
+     5fear          -   Black           0,0,0
+     6contempt      -   Green(Lime)     50,205,50
+     7disgust       -   Brown(Saddle)   139,69,19
+     none           -   Transparent     255,255,255 with 0.1 alpha   ***Bug only. Should never happen***
      */
     
-    if (label == 0)         gl::color( ColorA( (173.f*(1.f/255.f)), (216.f*(1.f/255.f)), (230.f*(1.f/255.f)), 0.45f ) );
+    if (label == 0)         gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
     else if (label == 1)    gl::color( ColorA( 1.f, 0.f, 0.f, 0.45f ) );
-    else if (label == 2)    gl::color( ColorA( (139.f*(1.f/255.f)), 0.f, 0.f, 0.45f ) );
-    else if (label == 3)    gl::color( ColorA( (128.f*(1.f/255.f)), 0.f, (128.f*(1.f/255.f)), 0.45f ) );
+    else if (label == 2)    gl::color( ColorA( (50.f*(1.f/255.f)), (205.f*(1.f/255.f)), (50.f*(1.f/255.f)), 0.45f ) );
+    else if (label == 3)    gl::color( ColorA( (139.f*(1.f/255.f)), (69.f*(1.f/255.f)), (19.f*(1.f/255.f)), 0.45f ) );
     else if (label == 4)    gl::color( ColorA( 0.f, 0.f, 1.f, 0.45f ) );
-    else if (label == 5)    gl::color( ColorA( (50.f*(1.f/255.f)), (205.f*(1.f/255.f)), (50.f*(1.f/255.f)), 0.45f ) );
-    else if (label == 6)    gl::color( ColorA( 1.f, (215.f*(1.f/255.f)), 0, 0.45f ) );
+    else if (label == 5)    gl::color( ColorA( 1.f, (215.f*(1.f/255.f)), 0, 0.45f ) );
+    else if (label == 6)    gl::color( ColorA( 0.f, 0.f, 0.f, 0.45f ) );
     else if (label == 7)    gl::color( ColorA( 1.f, (165.f*(1.f/255.f)), 0, 0.45f ) );
-    else if (label == 8)    gl::color( ColorA( (169.f*(1.f/255.f)), (169.f*(1.f/255.f)), (169.f*(1.f/255.f)), 0.45f ) );
-    else if (label == 9)    gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
+    else if (label == 8)    gl::color( ColorA( (128.f*(1.f/255.f)), 0.f, (128.f*(1.f/255.f)), 0.45f ) );
+    else if (label == 9)    gl::color( ColorA( (238.f*(1.f/255.f)), (15.f*(1.f/255.f)), (151.f*(1.f/255.f)), 0.45f ) );
     else{
-            gl::color( ColorA( 1.f, 1.f, 1.f, 0.1f ) );
+        gl::color( ColorA( 1.f, 1.f, 1.f, 0.1f ) );
     }
     
     /* The SWITCH version would be...
-    switch ( label ) // TEST DB Right Now
-    {
-        case '0':
-            gl::color( ColorA( (173.f*(1.f/255.f)), (216.f*(1.f/255.f)), (230.f*(1.f/255.f)), 0.45f ) );
-            break;
-        case '1':
-            gl::color( ColorA( 1.f, 0.f, 0.f, 0.45f ) );
-            break;
-        case '2':
-            gl::color( ColorA( (139.f*(1.f/255.f)), 0.f, 0.f, 0.45f ) );
-            break;
-        case '3':
-            gl::color( ColorA( (128.f*(1.f/255.f)), 0.f, (128.f*(1.f/255.f)), 0.45f ) );
-        case '4':
-            gl::color( ColorA( 0.f, 0.f, 1.f, 0.45f ) );
-            break;
-        case '5':
-            gl::color( ColorA( (50.f*(1.f/255.f)), (205.f*(1.f/255.f)), (50.f*(1.f/255.f)), 0.45f ) );
-        case '6':
-            gl::color( ColorA( 1.f, (215.f*(1.f/255.f)), 0, 0.45f ) );
-            break;
-        case '7':
-            gl::color( ColorA( 1.f, (165.f*(1.f/255.f)), 0, 0.45f ) );
-        case '8':
-            gl::color( ColorA( (169.f*(1.f/255.f)), (169.f*(1.f/255.f)), (169.f*(1.f/255.f)), 0.45f ) );
-            break;
-        case '9':
-            gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
-            
-        default:
-            gl::color( ColorA( 1.f, 1.f, 1.f, 0.1f ) );
-    }*/
+     switch ( label ) // TEST DB Right Now
+     {
+     case '0':
+     gl::color( ColorA( 1.f, 1.f, 1.f, 0.45f ) );
+     break;
+     case '1':
+     gl::color( ColorA( 1.f, 0.f, 0.f, 0.45f ) );
+     break;
+     case '2':
+     gl::color( ColorA( (50.f*(1.f/255.f)), (205.f*(1.f/255.f)), (50.f*(1.f/255.f)), 0.45f ) );
+     break;
+     case '3':
+     gl::color( ColorA( (139.f*(1.f/255.f)), (69.f*(1.f/255.f)), (19.f*(1.f/255.f)), 0.45f ) );
+     case '4':
+     gl::color( ColorA( 0.f, 0.f, 1.f, 0.45f ) );
+     break;
+     case '5':
+     gl::color( ColorA( 1.f, (215.f*(1.f/255.f)), 0, 0.45f ) );
+     case '6':
+     gl::color( ColorA( 0.f, 0.f, 0.f, 0.45f ) );
+     break;
+     case '7':
+     gl::color( ColorA( 1.f, (165.f*(1.f/255.f)), 0, 0.45f ) );
+     case '8':
+     gl::color( ColorA( (128.f*(1.f/255.f)), 0.f, (128.f*(1.f/255.f)), 0.45f ) );
+     break;
+     case '9':
+     gl::color( ColorA( (238.f*(1.f/255.f)), (15.f*(1.f/255.f)), (151.f*(1.f/255.f)), 0.45f ) );
+     break;
+     default:
+     gl::color( ColorA( 1.f, 1.f, 1.f, 0.1f ) );
+     }*/
 }
 
 void ICPApp::draw()
