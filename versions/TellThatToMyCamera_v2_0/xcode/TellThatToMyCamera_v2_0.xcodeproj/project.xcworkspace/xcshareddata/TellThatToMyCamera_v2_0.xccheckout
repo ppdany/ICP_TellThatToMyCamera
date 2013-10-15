@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7DDBCA60-F1B3-4B84-B617-2A9621A4C7B7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TellThatToMyCamera_v2_0</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6EEFCEB2-DA89-472E-AB1C-3A6A92AD29C1</key>
+		<string>https://github.com/ppdany/ICP_TellThatToMyCamera.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>versions/TellThatToMyCamera_v2_0/xcode/TellThatToMyCamera_v2_0.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6EEFCEB2-DA89-472E-AB1C-3A6A92AD29C1</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ppdany/ICP_TellThatToMyCamera.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6EEFCEB2-DA89-472E-AB1C-3A6A92AD29C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6EEFCEB2-DA89-472E-AB1C-3A6A92AD29C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ICP_TellThatToMyCamera</string>
+		</dict>
+	</array>
+</dict>
+</plist>

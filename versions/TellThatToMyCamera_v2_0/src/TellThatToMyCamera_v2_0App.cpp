@@ -80,9 +80,9 @@ void TellThatToMyCamera_v2_0App::setup()
 {
     // Load necessary files for the machine learning process
     mExpressionsCascade.load(getAssetPath("haarcascade_frontalface_alt.xml").string());
-    mPath= getAssetPath("emotions.csv").string();
+    //mPath= getAssetPath("emotions.csv").string();
     // FOR TEST DB
-    // mPath= getAssetPath("ppdtest.csv").string();
+     mPath= getAssetPath("ppdtest.csv").string();
     // Setup flags for effects. The semi-transparent circles effect is true to set it as the default effect
     circEff = true;
     sprSlrpEff = false;

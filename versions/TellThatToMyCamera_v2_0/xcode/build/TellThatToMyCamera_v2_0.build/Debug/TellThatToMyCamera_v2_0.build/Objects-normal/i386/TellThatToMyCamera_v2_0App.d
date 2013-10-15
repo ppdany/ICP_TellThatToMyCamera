@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/xcode/../src/TellThatToMyCamera_v2_0App.cpp \
+  /Users/PpD/ICP_TellThatToMyCamera/versions/TellThatToMyCamera_v2_0/src/TellThatToMyCamera_v2_0App.cpp \
   ../../../../Documents/cinder_0.8.5_mac/include/cinder/app/AppNative.h \
   ../../../../Documents/cinder_0.8.5_mac/include/cinder/Capture.h \
   ../../../../Documents/cinder_0.8.5_mac/include/cinder/gl/Texture.h \
